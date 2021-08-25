@@ -50,7 +50,7 @@ def df_for_baseline():
                                 )
 
     # data containing the plots and its personality:
-    path_temp_csv = Path.cwd().joinpath('    baseline_df.csv')
+    path_temp_csv = Path.cwd().joinpath('baseline_df.csv')
     # index = True star indexing the csv file with 0:
     final_df.to_csv(path_temp_csv, sep='\t', index = False, header=True)
     
@@ -93,7 +93,7 @@ def df_for_test():
     
     df.reset_index(drop=True, inplace=False)
 
-    path_temp_csv = Path.cwd().joinpath('    baseline_df.csv')
+    path_temp_csv = Path.cwd().joinpath('baseline_df.csv')
     # index = True star indexing the csv file with 0:
     df.to_csv(path_temp_csv, sep='\t', index = False, header=True)
 
@@ -117,7 +117,7 @@ def knn_rating_prediction():
 
 if __name__ == '__main__':
 
-    #df_for_baseline()
+    df_for_baseline()
     
     
     knn_rating_prediction()
