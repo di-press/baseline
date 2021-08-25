@@ -50,7 +50,7 @@ def df_for_baseline():
                                 )
 
     # data containing the plots and its personality:
-    path_temp_csv = Path.cwd().joinpath('shuffled_baseline_df.csv')
+    path_temp_csv = Path.cwd().joinpath('    baseline_df.csv')
     # index = True star indexing the csv file with 0:
     final_df.to_csv(path_temp_csv, sep='\t', index = False, header=True)
     
@@ -93,31 +93,31 @@ def df_for_test():
     
     df.reset_index(drop=True, inplace=False)
 
-    path_temp_csv = Path.cwd().joinpath('shuffled_baseline_df.csv')
+    path_temp_csv = Path.cwd().joinpath('    baseline_df.csv')
     # index = True star indexing the csv file with 0:
     df.to_csv(path_temp_csv, sep='\t', index = False, header=True)
 
-# the file shuffled_baseline_df.csv need to exist before executing
+# the file     baseline_df.csv need to exist before executing
 # the function above!
 # the file can be created with the function df_for_baseline()
 def knn_rating_prediction():
 
     #complete database file, without splitting
-    input_file = Path.cwd().joinpath('shuffled_baseline_df.csv') 
+    input_file = Path.cwd().joinpath('baseline_df.csv') 
     input_file = str(input_file)
 
-    prediction_dir = Path.cwd().joinpath('knn_rating_prediction.txt')
+    prediction_dir = Path.cwd().joinpath('knn_rating_prediction')
     prediction_dir  = str(prediction_dir)
 
     recommender = UserKNN()
 
-    CrossValidation(input_file, recommender, prediction_dir, k_folds = 10, header=None,
+    CrossValidation(input_file, recommender, prediction_dir, k_folds = 10, header=1,
                     write_predictions = True).compute()
 
 
 if __name__ == '__main__':
 
-    df_for_baseline()
+    #df_for_baseline()
     
     
-    #knn_rating_prediction()
+    knn_rating_prediction()
