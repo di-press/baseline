@@ -168,4 +168,6 @@ if __name__ == '__main__':
 
     #user_knn_rating_prediction_hamming()
 
-    generate_up_to_50_neighbors_RMSE("cosine")
+    #generate_up_to_50_neighbors_RMSE("cosine")
+
+    generate_up_to_50_neighbors_RMSE("hamming")
