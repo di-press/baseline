@@ -153,4 +153,6 @@ if __name__ == "__main__":
 
     baseline_cosine_userknn_file = Path.cwd().joinpath('UserKNN_cosine_1_to_50_neighbors.txt')
     MRSE_values_list = MRSE_values_from_file(baseline_cosine_userknn_file)
-    print(MRSE_values_list)
+    #print(MRSE_values_list)
+
+    MRSE_graphic('1', 50, MRSE_values_list, "UserKNN", 10, "cosine","teal")
