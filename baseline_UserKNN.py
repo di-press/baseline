@@ -1,3 +1,5 @@
+# baseline with UserKNN
+
 import pandas as pd
 from pathlib import Path
 from caserec.utils.cross_validation import CrossValidation
@@ -100,7 +102,8 @@ def df_for_test():
 # the file     baseline_df.csv need to exist before executing
 # the function above!
 # the file can be created with the function df_for_baseline()
-def knn_rating_prediction():
+# uses cosine:
+def user_knn_rating_prediction_cosine():
 
     #complete database file, without splitting
     input_file = Path.cwd().joinpath('baseline_df.csv') 
@@ -114,10 +117,26 @@ def knn_rating_prediction():
     CrossValidation(input_file, recommender, prediction_dir, k_folds = 10, header=1,
                     write_predictions = True).compute()
 
+# uses hamming
+def user_knn_rating_prediction_hamming():
+
+    #complete database file, without splitting
+    input_file = Path.cwd().joinpath('baseline_df.csv') 
+    input_file = str(input_file)
+
+    prediction_dir = Path.cwd().joinpath('knn_rating_prediction')
+    prediction_dir  = str(prediction_dir)
+
+    recommender = UserKNN(similarity_metric="hamming", k_neighbors=3)
+
+    CrossValidation(input_file, recommender, prediction_dir, k_folds = 10, header=1,
+                    write_predictions = True).compute()
 
 if __name__ == '__main__':
 
     df_for_baseline()
     
     
-    knn_rating_prediction()
+    #user_knn_rating_prediction_cosine()
+
+    user_knn_rating_prediction_hamming()
