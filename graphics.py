@@ -52,37 +52,6 @@ def MRSE_graphic(id_exp, num_neighbors_max, MSRE_values, nome_legenda, k_folds, 
     plt.savefig(filename)
     plt.close()
 
-#-----------------------------------------------------------------------------------
-# "blueviolet" "mediumblue"
-#AINDA N CODEI A FUNÇÂO ABAIXO!S
-def r2_score_graphic(id_exp, num_neighbors_max, r2_values, nome_legenda, k_folds, dist, cor):
-
-
-    plt.style.use('seaborn')
-
-    titulo = '''Coeficiente de determinação (R²) obtido para cada valor de vizinho K \n 
-                com validação em ''' + str(k_folds) + ' folds - métrica ' + str(dist)
-
-    plt.title(titulo)
-
-    plt.xlabel("K (vizinhos)")
-    plt.ylabel("coeficiente de determinação (R²)")
-
-    k_values = list(range(1, num_neighbors_max+1))
-    x = k_values
-    y = r2_values
-
-
-    plt.plot(x, y, label = nome_legenda, color = cor, marker = ".", linestyle = "solid", markersize = "10")    
-
-    plt.legend()
-    filename = 'R2_cv='+ str(k_folds) + '_' + str(dist) +"_" + id_exp +'.png'
-    plt.savefig(filename)
-
-    plt.close()
-
-    #plt.show()
-
 
 #------------------------------------------------------------------------------------
 
