@@ -1,0 +1,400 @@
+k=  1
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.011826 RMSE: 1.099920 
+STD:: MAE: 0.013429 RMSE: 0.015712 
+k=  2
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.010585 RMSE: 1.102321 
+STD:: MAE: 0.012943 RMSE: 0.014997 
+k=  3
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.007703 RMSE: 1.100760 
+STD:: MAE: 0.009093 RMSE: 0.013834 
+k=  4
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.004678 RMSE: 1.097319 
+STD:: MAE: 0.016466 RMSE: 0.022498 
+k=  5
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.002155 RMSE: 1.096294 
+STD:: MAE: 0.008388 RMSE: 0.013675 
+k=  6
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.004385 RMSE: 1.100645 
+STD:: MAE: 0.016559 RMSE: 0.013475 
+k=  7
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.003048 RMSE: 1.099374 
+STD:: MAE: 0.011833 RMSE: 0.013424 
+k=  8
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.002075 RMSE: 1.096949 
+STD:: MAE: 0.013249 RMSE: 0.016256 
+k=  9
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.002906 RMSE: 1.098369 
+STD:: MAE: 0.008214 RMSE: 0.009550 
+k=  10
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.002763 RMSE: 1.098996 
+STD:: MAE: 0.015648 RMSE: 0.015696 
+k=  11
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.003086 RMSE: 1.099931 
+STD:: MAE: 0.008924 RMSE: 0.009738 
+k=  12
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.003428 RMSE: 1.097738 
+STD:: MAE: 0.015598 RMSE: 0.020226 
+k=  13
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.003449 RMSE: 1.100413 
+STD:: MAE: 0.011282 RMSE: 0.014413 
+k=  14
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.003047 RMSE: 1.098423 
+STD:: MAE: 0.015740 RMSE: 0.017664 
+k=  15
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.001719 RMSE: 1.097792 
+STD:: MAE: 0.012360 RMSE: 0.013967 
+k=  16
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.003358 RMSE: 1.099141 
+STD:: MAE: 0.013160 RMSE: 0.012524 
+k=  17
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.001986 RMSE: 1.097758 
+STD:: MAE: 0.011507 RMSE: 0.015059 
+k=  18
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.002542 RMSE: 1.098904 
+STD:: MAE: 0.008890 RMSE: 0.013127 
+k=  19
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.003781 RMSE: 1.100437 
+STD:: MAE: 0.006390 RMSE: 0.007414 
+k=  20
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.001590 RMSE: 1.098305 
+STD:: MAE: 0.009875 RMSE: 0.012662 
+k=  21
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.003516 RMSE: 1.100126 
+STD:: MAE: 0.016890 RMSE: 0.020670 
+k=  22
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.001228 RMSE: 1.096684 
+STD:: MAE: 0.014843 RMSE: 0.015962 
+k=  23
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.001921 RMSE: 1.099236 
+STD:: MAE: 0.011137 RMSE: 0.013187 
+k=  24
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.005319 RMSE: 1.101201 
+STD:: MAE: 0.016091 RMSE: 0.017914 
+k=  25
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.003040 RMSE: 1.098629 
+STD:: MAE: 0.006525 RMSE: 0.009559 
+k=  26
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.000366 RMSE: 1.095731 
+STD:: MAE: 0.013799 RMSE: 0.012561 
+k=  27
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.002660 RMSE: 1.099450 
+STD:: MAE: 0.010822 RMSE: 0.013809 
+k=  28
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.006414 RMSE: 1.102672 
+STD:: MAE: 0.015012 RMSE: 0.017169 
+k=  29
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.002656 RMSE: 1.099486 
+STD:: MAE: 0.011773 RMSE: 0.014336 
+k=  30
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.003650 RMSE: 1.100212 
+STD:: MAE: 0.012645 RMSE: 0.014242 
+k=  31
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.001379 RMSE: 1.097256 
+STD:: MAE: 0.014289 RMSE: 0.012696 
+k=  32
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.002813 RMSE: 1.099891 
+STD:: MAE: 0.010171 RMSE: 0.016332 
+k=  33
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.002482 RMSE: 1.098000 
+STD:: MAE: 0.011703 RMSE: 0.010337 
+k=  34
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.000395 RMSE: 1.096727 
+STD:: MAE: 0.010553 RMSE: 0.011222 
+k=  35
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.003820 RMSE: 1.099802 
+STD:: MAE: 0.012601 RMSE: 0.016392 
+k=  36
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.006100 RMSE: 1.102642 
+STD:: MAE: 0.010609 RMSE: 0.012070 
+k=  37
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.003097 RMSE: 1.099474 
+STD:: MAE: 0.011741 RMSE: 0.008184 
+k=  38
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.007612 RMSE: 1.104538 
+STD:: MAE: 0.014496 RMSE: 0.020225 
+k=  39
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.003194 RMSE: 1.099234 
+STD:: MAE: 0.016836 RMSE: 0.020875 
+k=  40
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.001270 RMSE: 1.096021 
+STD:: MAE: 0.014711 RMSE: 0.014522 
+k=  41
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.003987 RMSE: 1.098939 
+STD:: MAE: 0.017928 RMSE: 0.016910 
+k=  42
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.004063 RMSE: 1.101030 
+STD:: MAE: 0.016745 RMSE: 0.019267 
+k=  43
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.004844 RMSE: 1.101749 
+STD:: MAE: 0.011963 RMSE: 0.015443 
+k=  44
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.002728 RMSE: 1.098853 
+STD:: MAE: 0.012686 RMSE: 0.017221 
+k=  45
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.004491 RMSE: 1.100634 
+STD:: MAE: 0.010790 RMSE: 0.012879 
+k=  46
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.003137 RMSE: 1.097808 
+STD:: MAE: 0.015920 RMSE: 0.015894 
+k=  47
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.002780 RMSE: 1.098303 
+STD:: MAE: 0.013912 RMSE: 0.012323 
+k=  48
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.001372 RMSE: 1.098590 
+STD:: MAE: 0.013827 RMSE: 0.016947 
+k=  49
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.003159 RMSE: 1.099778 
+STD:: MAE: 0.009781 RMSE: 0.011026 
+k=  50
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: ItemKNN Algorithm | K Folds: 10
+
+Mean:: MAE: 1.001287 RMSE: 1.099547 
+STD:: MAE: 0.009311 RMSE: 0.010869 
