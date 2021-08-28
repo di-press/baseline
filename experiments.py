@@ -65,35 +65,28 @@ def exp_baseline_7():
 
     graphics.MRSE_graphic('7', 50, MRSE_values_list, "UserKNN", 10, "manhattan","indigo")
 
-# UserKNN mahalanobis
-def exp_baseline_8():
 
-    file = Path.cwd().joinpath('UserKNN_mahalanobis_1_to_50_neighbors.txt')
-    MRSE_values_list = graphics.MRSE_values_from_file(file)
-    #print(MRSE_values_list)
-
-    graphics.MRSE_graphic('8', 50, MRSE_values_list, "UserKNN", 10, "mahalanobis","mediumvioletred")
 
 # ItemKNN minkowski
-def exp_baseline_9():
+def exp_baseline_8():
 
     file = Path.cwd().joinpath('ItemKNN_minkowski_1_to_50_neighbors.txt')
     MRSE_values_list = graphics.MRSE_values_from_file(file)
     #print(MRSE_values_list)
 
-    graphics.MRSE_graphic('9', 50, MRSE_values_list, "ItemKNN", 10, "minkowski","steelblue")
+    graphics.MRSE_graphic('8', 50, MRSE_values_list, "ItemKNN", 10, "minkowski","steelblue")
 
 
 # ItemKNN chebyshev
-def exp_baseline_10():
+def exp_baseline_9():
 
     file = Path.cwd().joinpath('ItemKNN_chebyshev_1_to_50_neighbors.txt')
     MRSE_values_list = graphics.MRSE_values_from_file(file)
     #print(MRSE_values_list)
 
-    graphics.MRSE_graphic('10', 50, MRSE_values_list, "ItemKNN", 10, "chebyshev","palegreen")
+    graphics.MRSE_graphic('9', 50, MRSE_values_list, "ItemKNN", 10, "chebyshev","palegreen")
 
-# ItemKNN manhattan
+# ItemKNN manhattan (cityblock)
 def exp_baseline_10():
 
     file = Path.cwd().joinpath('ItemKNN_manhattan_1_to_50_neighbors.txt')
@@ -101,15 +94,6 @@ def exp_baseline_10():
     #print(MRSE_values_list)
 
     graphics.MRSE_graphic('10', 50, MRSE_values_list, "ItemKNN", 10, "manhattan","bisque")
-
-# ItemKNN mahalanobis
-def exp_baseline_11():
-
-    file = Path.cwd().joinpath('ItemKNN_mahalanobis_1_to_50_neighbors.txt')
-    MRSE_values_list = graphics.MRSE_values_from_file(file)
-    #print(MRSE_values_list)
-
-    graphics.MRSE_graphic('11', 50, MRSE_values_list, "ItemKNN", 10, "mahalanobis","plum")
 
 
 if __name__ == '__main__':
@@ -121,3 +105,15 @@ if __name__ == '__main__':
     #exp_baseline_3()
 
     #exp_baseline_4()
+
+    #exp_baseline_5()
+
+    #exp_baseline_6()
+
+    #exp_baseline_7()
+
+    #exp_baseline_8()
+
+    #exp_baseline_9()
+
+    exp_baseline_10()
