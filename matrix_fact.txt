@@ -1,0 +1,17 @@
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.299081 RMSE: 0.37847 
+Eval:: MAE: 0.31208 RMSE: 0.389764 
+Eval:: MAE: 0.308781 RMSE: 0.391662 
+Eval:: MAE: 0.31272 RMSE: 0.394668 
+Eval:: MAE: 0.31394 RMSE: 0.400432 
+Eval:: MAE: 0.300229 RMSE: 0.372413 
+Eval:: MAE: 0.309398 RMSE: 0.392309 
+Eval:: MAE: 0.316354 RMSE: 0.39706 
+Eval:: MAE: 0.308384 RMSE: 0.393779 
+Eval:: MAE: 0.314259 RMSE: 0.393049 
+Mean:: MAE: 0.309523 RMSE: 0.390361 
+STD:: MAE: 0.005501 RMSE: 0.008082 

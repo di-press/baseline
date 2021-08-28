@@ -68,4 +68,12 @@ if __name__ == '__main__':
 
     #generate_up_to_50_neighbors_RMSE("cosine")
 
-    generate_up_to_50_neighbors_RMSE("hamming")
+    #generate_up_to_50_neighbors_RMSE("hamming")
+
+    generate_up_to_50_neighbors_RMSE("minkowski")
+
+    #generate_up_to_50_neighbors_RMSE("chebyshev")
+
+    #generate_up_to_50_neighbors_RMSE("manhattan")
+
+    #generate_up_to_50_neighbors_RMSE("mahalanobis")
