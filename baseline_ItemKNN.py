@@ -76,4 +76,4 @@ if __name__ == '__main__':
 
     #generate_up_to_50_neighbors_RMSE("manhattan")
 
-    #generate_up_to_50_neighbors_RMSE("mahalanobis")
+    #generate_up_to_50_neighbors_RMSE("jaccard")
