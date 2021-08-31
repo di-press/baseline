@@ -167,6 +167,48 @@ def baseline_proposal_graphic(MRSE_values_baseline, MRSE_values_proposal, num_ne
     plt.savefig(filename)
     plt.close()
 
+#plots_info: (dict) for each plot, contains:
+# RMSE values, legend name, dist, color of plot
+def MRSE_graphic_all_exps(num_neighbors_max, plots_info , k_folds, algorithm_type):
+
+    plt.style.use('seaborn')
+
+    titulo = '''RMSE obtido para cada valor de vizinho K  dos diversos baselines do tipo ''' +algorithm_type +'''\n  com validação em ''' + str(k_folds) + ' folds, para diversas distâncias'
+
+    plt.title(titulo)
+
+    plt.xlabel("K (vizinhos)")
+    plt.ylabel("RMSE")
+
+    k_values = list(range(1, num_neighbors_max+1))
+    x = k_values
+
+    plot_0 = plots_info[0]
+    plt.plot(x, plot_0['RMSE_values'], label = plot_0['legend'], color = plot_0['color'], marker = ".", linestyle = "solid", markersize = "7")    
+
+    plot_1 = plots_info[1]
+    plt.plot(x, plot_1['RMSE_values'], label = plot_1['legend'], color = plot_1['color'], marker = ".", linestyle = "solid", markersize = "7")    
+
+    plot_2 = plots_info[2]
+    plt.plot(x, plot_2['RMSE_values'], label = plot_2['legend'], color = plot_2['color'], marker = ".", linestyle = "solid", markersize = "7")   
+
+    plot_3 = plots_info[3]
+    plt.plot(x, plot_3['RMSE_values'], label = plot_3['legend'], color = plot_3['color'], marker = ".", linestyle = "solid", markersize = "7")     
+
+    plot_4 = plots_info[4]
+    plt.plot(x, plot_4['RMSE_values'], label = plot_4['legend'], color = plot_4['color'], marker = ".", linestyle = "solid", markersize = "7")    
+   
+    plt.legend()
+
+    if algorithm_type == 'UserKNN':
+        filename = 'UserKNN_comparison.png'
+
+    if algorithm_type == 'ItemKNN':
+        filename = 'ItemKNN_comparison.png'
+
+    plt.savefig(filename)
+    plt.close()
+
 if __name__ == "__main__":
 
     
