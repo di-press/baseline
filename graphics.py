@@ -209,6 +209,40 @@ def MRSE_graphic_all_exps(num_neighbors_max, plots_info , k_folds, algorithm_typ
     plt.savefig(filename)
     plt.close()
 
+
+def baselines_versus_proposal(id_proposal, num_neighbors_max, plots_info):
+
+    
+    plt.style.use('seaborn')
+
+    if id_proposal == 5:
+        titulo = '''RMSE obtido para cada valor de K (vizinho) dos diversos baselines e das Propostas ''' + ''',\ncom validação em '''  + '10 folds - métrica hamming'
+
+    else:
+        titulo = '''RMSE obtido para cada valor de K (vizinho) dos diversos baselines e da Proposta ''' + str(id_proposal)+ ''',\ncom validação em '''  + '10 folds - métrica hamming'
+
+    plt.title(titulo)
+
+    plt.xlabel("K (vizinhos)")
+    plt.ylabel("RMSE")
+
+    k_values = list(range(1, num_neighbors_max+1))
+    x = k_values
+
+    for plot in plots_info:
+
+        plt.plot(x, plot['RMSE_values'], label = plot['legend'], color = plot['color'], marker = ".", linestyle = "solid", markersize = "7")    
+
+   
+    plt.legend()
+
+    
+    filename = 'baselines_X_proposal_' + str(id_proposal) + '_comparison.png'
+
+
+    plt.savefig(filename)
+    plt.close()
+
 if __name__ == "__main__":
 
     

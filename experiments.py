@@ -1,5 +1,7 @@
+from matplotlib.pyplot import plot
 import graphics
 from pathlib import Path
+import pandas as pd
 
 #userKNN with cosine:
 def exp_baseline_1():
@@ -191,7 +193,247 @@ def all_graphs_ItemKNN():
     graphics.MRSE_graphic_all_exps(50, plot_info, 10, 'ItemKNN')
 
     
+def all_baselines_versus_proposal1():
 
+    plot_info=[]
+
+    baseline_hamming_userknn_file = Path.cwd().joinpath('UserKNN_hamming_1_to_50_neighbors.txt')
+    MRSE_values_list_hamming = graphics.MRSE_values_from_file(baseline_hamming_userknn_file)
+    plot_1 = {'RMSE_values': MRSE_values_list_hamming[:-1], 'legend': 'UserKNN - hamming', 'color': 'lightseagreen'}
+
+    plot_info.append(plot_1)
+
+    baseline_hamming_itemknn_file = Path.cwd().joinpath('ItemKNN_hamming_1_to_50_neighbors.txt')
+    MRSE_values_list_hamming = graphics.MRSE_values_from_file(baseline_hamming_itemknn_file)
+    plot_2 = {'RMSE_values': MRSE_values_list_hamming[:-1], 'legend': 'ItemKNN - hamming', 'color': 'royalblue'}
+
+    plot_info.append(plot_2)
+
+    proposal_file = Path.cwd().joinpath('no_genre_standard_n=50_cv=10_hamming_exp2.csv')
+
+
+    df = pd.read_csv(proposal_file,
+                        index_col= False,
+                        sep=",", warn_bad_lines=True, 
+                        error_bad_lines=True,
+                        engine='python',
+                        header=0,
+                        usecols = ['MSRE']
+
+    )
+
+    MRSE_values_list_hamming = list(df['MSRE'])
+    plot_3 = {'RMSE_values': MRSE_values_list_hamming, 'legend': 'Proposta 1 - hamming', 'color': 'orange'}
+
+    plot_info.append(plot_3)
+
+    graphics.baselines_versus_proposal(1, 49, plot_info)
+
+# perso user + perso movie + genres
+def all_baselines_versus_proposal2():
+
+    plot_info=[]
+
+    baseline_hamming_userknn_file = Path.cwd().joinpath('UserKNN_hamming_1_to_50_neighbors.txt')
+    MRSE_values_list_hamming = graphics.MRSE_values_from_file(baseline_hamming_userknn_file)
+    plot_1 = {'RMSE_values': MRSE_values_list_hamming[:-1], 'legend': 'UserKNN - hamming', 'color': 'lightseagreen'}
+
+    plot_info.append(plot_1)
+
+    baseline_hamming_itemknn_file = Path.cwd().joinpath('ItemKNN_hamming_1_to_50_neighbors.txt')
+    MRSE_values_list_hamming = graphics.MRSE_values_from_file(baseline_hamming_itemknn_file)
+    plot_2 = {'RMSE_values': MRSE_values_list_hamming[:-1], 'legend': 'ItemKNN - hamming', 'color': 'royalblue'}
+
+    plot_info.append(plot_2)
+
+    proposal_file = Path.cwd().joinpath('with_genre_normalization_n=50_cv=10_hammingexp23.csv')
+
+
+    df = pd.read_csv(proposal_file,
+                        index_col= False,
+                        sep=",", warn_bad_lines=True, 
+                        error_bad_lines=True,
+                        engine='python',
+                        header=0,
+                        usecols = ['MSRE']
+
+    )
+
+    MRSE_values_list_hamming = list(df['MSRE'])
+    plot_3 = {'RMSE_values': MRSE_values_list_hamming, 'legend': 'Proposta 2 - hamming', 'color': 'limegreen'}
+
+    plot_info.append(plot_3)
+
+    graphics.baselines_versus_proposal(2, 49, plot_info)
+
+
+# perso user 
+def all_baselines_versus_proposal3():
+
+    plot_info=[]
+
+    baseline_hamming_userknn_file = Path.cwd().joinpath('UserKNN_hamming_1_to_50_neighbors.txt')
+    MRSE_values_list_hamming = graphics.MRSE_values_from_file(baseline_hamming_userknn_file)
+    plot_1 = {'RMSE_values': MRSE_values_list_hamming[:-1], 'legend': 'UserKNN - hamming', 'color': 'lightseagreen'}
+
+    plot_info.append(plot_1)
+
+    baseline_hamming_itemknn_file = Path.cwd().joinpath('ItemKNN_hamming_1_to_50_neighbors.txt')
+    MRSE_values_list_hamming = graphics.MRSE_values_from_file(baseline_hamming_itemknn_file)
+    plot_2 = {'RMSE_values': MRSE_values_list_hamming[:-1], 'legend': 'ItemKNN - hamming', 'color': 'royalblue'}
+
+    plot_info.append(plot_2)
+
+    proposal_file = Path.cwd().joinpath('no_genre_normalization_n=50_cv=10_hammingexp25.csv')
+
+
+    df = pd.read_csv(proposal_file,
+                        index_col= False,
+                        sep=",", warn_bad_lines=True, 
+                        error_bad_lines=True,
+                        engine='python',
+                        header=0,
+                        usecols = ['MSRE']
+
+    )
+
+    MRSE_values_list_hamming = list(df['MSRE'])
+    plot_3 = {'RMSE_values': MRSE_values_list_hamming, 'legend': 'Proposta 3 - hamming', 'color': 'lightcoral'}
+
+    plot_info.append(plot_3)
+
+    graphics.baselines_versus_proposal(3, 49, plot_info)
+
+
+# perso movie 
+def all_baselines_versus_proposal4():
+
+    plot_info=[]
+
+    baseline_hamming_userknn_file = Path.cwd().joinpath('UserKNN_hamming_1_to_50_neighbors.txt')
+    MRSE_values_list_hamming = graphics.MRSE_values_from_file(baseline_hamming_userknn_file)
+    plot_1 = {'RMSE_values': MRSE_values_list_hamming[:-1], 'legend': 'UserKNN - hamming', 'color': 'lightseagreen'}
+
+    plot_info.append(plot_1)
+
+    baseline_hamming_itemknn_file = Path.cwd().joinpath('ItemKNN_hamming_1_to_50_neighbors.txt')
+    MRSE_values_list_hamming = graphics.MRSE_values_from_file(baseline_hamming_itemknn_file)
+    plot_2 = {'RMSE_values': MRSE_values_list_hamming[:-1], 'legend': 'ItemKNN - hamming', 'color': 'royalblue'}
+
+    plot_info.append(plot_2)
+
+    proposal_file = Path.cwd().joinpath('no_genre_normalization_n=50_cv=10_hammingexp27.csv')
+
+
+    df = pd.read_csv(proposal_file,
+                        index_col= False,
+                        sep=",", warn_bad_lines=True, 
+                        error_bad_lines=True,
+                        engine='python',
+                        header=0,
+                        usecols = ['MSRE']
+
+    )
+
+    MRSE_values_list_hamming = list(df['MSRE'])
+    plot_3 = {'RMSE_values': MRSE_values_list_hamming, 'legend': 'Proposta 4 - hamming', 'color': 'indigo'}
+
+    plot_info.append(plot_3)
+
+    graphics.baselines_versus_proposal(4, 49, plot_info)
+
+
+def all_baselines_versus_all_proposals():
+
+    plot_info=[]
+
+    baseline_hamming_userknn_file = Path.cwd().joinpath('UserKNN_hamming_1_to_50_neighbors.txt')
+    MRSE_values_list_hamming = graphics.MRSE_values_from_file(baseline_hamming_userknn_file)
+    plot_1 = {'RMSE_values': MRSE_values_list_hamming[:-1], 'legend': 'UserKNN - hamming', 'color': 'lightseagreen'}
+
+    plot_info.append(plot_1)
+
+    baseline_hamming_itemknn_file = Path.cwd().joinpath('ItemKNN_hamming_1_to_50_neighbors.txt')
+    MRSE_values_list_hamming = graphics.MRSE_values_from_file(baseline_hamming_itemknn_file)
+    plot_2 = {'RMSE_values': MRSE_values_list_hamming[:-1], 'legend': 'ItemKNN - hamming', 'color': 'royalblue'}
+
+    plot_info.append(plot_2)
+
+    proposal_file = Path.cwd().joinpath('no_genre_normalization_n=50_cv=10_hammingexp27.csv')
+
+
+    df = pd.read_csv(proposal_file,
+                        index_col= False,
+                        sep=",", warn_bad_lines=True, 
+                        error_bad_lines=True,
+                        engine='python',
+                        header=0,
+                        usecols = ['MSRE']
+
+    )
+
+    MRSE_values_list_hamming = list(df['MSRE'])
+    plot_3 = {'RMSE_values': MRSE_values_list_hamming, 'legend': 'Proposta 4 - hamming', 'color': 'indigo'}
+
+    plot_info.append(plot_3)
+
+
+    proposal_file = Path.cwd().joinpath('no_genre_standard_n=50_cv=10_hamming_exp2.csv')
+
+
+    df = pd.read_csv(proposal_file,
+                        index_col= False,
+                        sep=",", warn_bad_lines=True, 
+                        error_bad_lines=True,
+                        engine='python',
+                        header=0,
+                        usecols = ['MSRE']
+
+    )
+
+    MRSE_values_list_hamming = list(df['MSRE'])
+    plot_4 = {'RMSE_values': MRSE_values_list_hamming, 'legend': 'Proposta 1 - hamming', 'color': 'orange'}
+
+    plot_info.append(plot_4)
+
+    proposal_file = Path.cwd().joinpath('with_genre_normalization_n=50_cv=10_hammingexp23.csv')
+
+
+    df = pd.read_csv(proposal_file,
+                        index_col= False,
+                        sep=",", warn_bad_lines=True, 
+                        error_bad_lines=True,
+                        engine='python',
+                        header=0,
+                        usecols = ['MSRE']
+
+    )
+
+    MRSE_values_list_hamming = list(df['MSRE'])
+    plot_5 = {'RMSE_values': MRSE_values_list_hamming, 'legend': 'Proposta 2 - hamming', 'color': 'limegreen'}
+
+    plot_info.append(plot_5)
+
+    proposal_file = Path.cwd().joinpath('no_genre_normalization_n=50_cv=10_hammingexp25.csv')
+
+
+    df = pd.read_csv(proposal_file,
+                        index_col= False,
+                        sep=",", warn_bad_lines=True, 
+                        error_bad_lines=True,
+                        engine='python',
+                        header=0,
+                        usecols = ['MSRE']
+
+    )
+
+    MRSE_values_list_hamming = list(df['MSRE'])
+    plot_6 = {'RMSE_values': MRSE_values_list_hamming, 'legend': 'Proposta 3 - hamming', 'color': 'lightcoral'}
+
+    plot_info.append(plot_6)
+
+
+    graphics.baselines_versus_proposal(5, 49, plot_info)
 
 if __name__ == '__main__':
 
@@ -221,4 +463,14 @@ if __name__ == '__main__':
 
     #all_graphs_UserKNN()
 
-    all_graphs_ItemKNN()
+    #all_graphs_ItemKNN()
+
+    #all_baselines_versus_proposal1()
+
+    #all_baselines_versus_proposal2()
+
+    #all_baselines_versus_proposal3()
+
+    #all_baselines_versus_proposal4()
+
+    all_baselines_versus_all_proposals()
