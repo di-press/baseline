@@ -1,0 +1,850 @@
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.303122 RMSE: 0.383633 
+Eval:: MAE: 0.298489 RMSE: 0.372454 
+Eval:: MAE: 0.298106 RMSE: 0.376738 
+Eval:: MAE: 0.297191 RMSE: 0.376911 
+Eval:: MAE: 0.297316 RMSE: 0.378135 
+Eval:: MAE: 0.301501 RMSE: 0.387236 
+Eval:: MAE: 0.313637 RMSE: 0.391118 
+Eval:: MAE: 0.299358 RMSE: 0.373809 
+Eval:: MAE: 0.304089 RMSE: 0.384077 
+Eval:: MAE: 0.296678 RMSE: 0.379252 
+Mean:: MAE: 0.300949 RMSE: 0.380336 
+STD:: MAE: 0.004880 RMSE: 0.005693 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.303169 RMSE: 0.378372 
+Eval:: MAE: 0.301244 RMSE: 0.376092 
+Eval:: MAE: 0.299627 RMSE: 0.384073 
+Eval:: MAE: 0.301457 RMSE: 0.379836 
+Eval:: MAE: 0.308014 RMSE: 0.385004 
+Eval:: MAE: 0.295471 RMSE: 0.367926 
+Eval:: MAE: 0.301032 RMSE: 0.376991 
+Eval:: MAE: 0.304119 RMSE: 0.389326 
+Eval:: MAE: 0.295157 RMSE: 0.375296 
+Eval:: MAE: 0.304569 RMSE: 0.395059 
+Mean:: MAE: 0.301386 RMSE: 0.380798 
+STD:: MAE: 0.003765 RMSE: 0.007375 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.298201 RMSE: 0.377212 
+Eval:: MAE: 0.304837 RMSE: 0.386025 
+Eval:: MAE: 0.302575 RMSE: 0.378308 
+Eval:: MAE: 0.314359 RMSE: 0.407475 
+Eval:: MAE: 0.296982 RMSE: 0.368118 
+Eval:: MAE: 0.303251 RMSE: 0.385619 
+Eval:: MAE: 0.297999 RMSE: 0.37755 
+Eval:: MAE: 0.295583 RMSE: 0.368946 
+Eval:: MAE: 0.299406 RMSE: 0.382743 
+Eval:: MAE: 0.301326 RMSE: 0.379064 
+Mean:: MAE: 0.301452 RMSE: 0.381106 
+STD:: MAE: 0.005135 RMSE: 0.010483 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.315472 RMSE: 0.396974 
+Eval:: MAE: 0.309268 RMSE: 0.396292 
+Eval:: MAE: 0.299651 RMSE: 0.37549 
+Eval:: MAE: 0.299192 RMSE: 0.373732 
+Eval:: MAE: 0.301047 RMSE: 0.374199 
+Eval:: MAE: 0.294705 RMSE: 0.375386 
+Eval:: MAE: 0.306801 RMSE: 0.390026 
+Eval:: MAE: 0.307486 RMSE: 0.391977 
+Eval:: MAE: 0.29733 RMSE: 0.37702 
+Eval:: MAE: 0.298127 RMSE: 0.376005 
+Mean:: MAE: 0.302908 RMSE: 0.382710 
+STD:: MAE: 0.006193 RMSE: 0.009292 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.297463 RMSE: 0.375382 
+Eval:: MAE: 0.305568 RMSE: 0.386242 
+Eval:: MAE: 0.301614 RMSE: 0.37414 
+Eval:: MAE: 0.30618 RMSE: 0.392738 
+Eval:: MAE: 0.307383 RMSE: 0.389637 
+Eval:: MAE: 0.300378 RMSE: 0.379314 
+Eval:: MAE: 0.301905 RMSE: 0.376526 
+Eval:: MAE: 0.304654 RMSE: 0.391863 
+Eval:: MAE: 0.307379 RMSE: 0.381912 
+Eval:: MAE: 0.295563 RMSE: 0.375978 
+Mean:: MAE: 0.302809 RMSE: 0.382373 
+STD:: MAE: 0.003917 RMSE: 0.006830 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.318363 RMSE: 0.405603 
+Eval:: MAE: 0.306312 RMSE: 0.381454 
+Eval:: MAE: 0.311558 RMSE: 0.391433 
+Eval:: MAE: 0.306399 RMSE: 0.381105 
+Eval:: MAE: 0.297408 RMSE: 0.38357 
+Eval:: MAE: 0.306786 RMSE: 0.384365 
+Eval:: MAE: 0.302497 RMSE: 0.387807 
+Eval:: MAE: 0.299064 RMSE: 0.371609 
+Eval:: MAE: 0.294897 RMSE: 0.377346 
+Eval:: MAE: 0.292917 RMSE: 0.371214 
+Mean:: MAE: 0.303620 RMSE: 0.383551 
+STD:: MAE: 0.007461 RMSE: 0.009544 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.305752 RMSE: 0.381692 
+Eval:: MAE: 0.305244 RMSE: 0.386408 
+Eval:: MAE: 0.305189 RMSE: 0.380968 
+Eval:: MAE: 0.308117 RMSE: 0.390931 
+Eval:: MAE: 0.302882 RMSE: 0.38459 
+Eval:: MAE: 0.310392 RMSE: 0.393841 
+Eval:: MAE: 0.303196 RMSE: 0.383411 
+Eval:: MAE: 0.306246 RMSE: 0.384128 
+Eval:: MAE: 0.298914 RMSE: 0.378915 
+Eval:: MAE: 0.299673 RMSE: 0.381369 
+Mean:: MAE: 0.304560 RMSE: 0.384625 
+STD:: MAE: 0.003350 RMSE: 0.004413 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.306158 RMSE: 0.385363 
+Eval:: MAE: 0.308274 RMSE: 0.390356 
+Eval:: MAE: 0.302595 RMSE: 0.384321 
+Eval:: MAE: 0.307403 RMSE: 0.384578 
+Eval:: MAE: 0.308237 RMSE: 0.392022 
+Eval:: MAE: 0.309255 RMSE: 0.39405 
+Eval:: MAE: 0.301666 RMSE: 0.377911 
+Eval:: MAE: 0.30847 RMSE: 0.387506 
+Eval:: MAE: 0.298496 RMSE: 0.379422 
+Eval:: MAE: 0.30764 RMSE: 0.391679 
+Mean:: MAE: 0.305819 RMSE: 0.386721 
+STD:: MAE: 0.003434 RMSE: 0.005131 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.304161 RMSE: 0.379339 
+Eval:: MAE: 0.310683 RMSE: 0.388396 
+Eval:: MAE: 0.295403 RMSE: 0.366608 
+Eval:: MAE: 0.300812 RMSE: 0.381529 
+Eval:: MAE: 0.311219 RMSE: 0.393681 
+Eval:: MAE: 0.320485 RMSE: 0.400014 
+Eval:: MAE: 0.308573 RMSE: 0.383042 
+Eval:: MAE: 0.308069 RMSE: 0.397955 
+Eval:: MAE: 0.301822 RMSE: 0.381814 
+Eval:: MAE: 0.311937 RMSE: 0.406737 
+Mean:: MAE: 0.307316 RMSE: 0.387912 
+STD:: MAE: 0.006692 RMSE: 0.011244 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.301336 RMSE: 0.384671 
+Eval:: MAE: 0.308403 RMSE: 0.386608 
+Eval:: MAE: 0.310194 RMSE: 0.390471 
+Eval:: MAE: 0.309263 RMSE: 0.385746 
+Eval:: MAE: 0.30812 RMSE: 0.392534 
+Eval:: MAE: 0.298906 RMSE: 0.378488 
+Eval:: MAE: 0.313694 RMSE: 0.393648 
+Eval:: MAE: 0.318477 RMSE: 0.400181 
+Eval:: MAE: 0.307261 RMSE: 0.399008 
+Eval:: MAE: 0.310345 RMSE: 0.387544 
+Mean:: MAE: 0.308600 RMSE: 0.389890 
+STD:: MAE: 0.005276 RMSE: 0.006334 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.315748 RMSE: 0.398066 
+Eval:: MAE: 0.294816 RMSE: 0.37449 
+Eval:: MAE: 0.30469 RMSE: 0.384569 
+Eval:: MAE: 0.315917 RMSE: 0.395556 
+Eval:: MAE: 0.310522 RMSE: 0.396131 
+Eval:: MAE: 0.303923 RMSE: 0.378999 
+Eval:: MAE: 0.300557 RMSE: 0.38142 
+Eval:: MAE: 0.315954 RMSE: 0.399398 
+Eval:: MAE: 0.317256 RMSE: 0.409347 
+Eval:: MAE: 0.319797 RMSE: 0.39558 
+Mean:: MAE: 0.309918 RMSE: 0.391356 
+STD:: MAE: 0.007982 RMSE: 0.010361 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.320166 RMSE: 0.407427 
+Eval:: MAE: 0.312818 RMSE: 0.393599 
+Eval:: MAE: 0.319934 RMSE: 0.399557 
+Eval:: MAE: 0.311957 RMSE: 0.38987 
+Eval:: MAE: 0.328936 RMSE: 0.417178 
+Eval:: MAE: 0.302944 RMSE: 0.382301 
+Eval:: MAE: 0.304332 RMSE: 0.385975 
+Eval:: MAE: 0.310599 RMSE: 0.393982 
+Eval:: MAE: 0.312191 RMSE: 0.390044 
+Eval:: MAE: 0.305606 RMSE: 0.393569 
+Mean:: MAE: 0.312948 RMSE: 0.395350 
+STD:: MAE: 0.007693 RMSE: 0.009821 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.30845 RMSE: 0.391682 
+Eval:: MAE: 0.306374 RMSE: 0.389586 
+Eval:: MAE: 0.304392 RMSE: 0.386983 
+Eval:: MAE: 0.310414 RMSE: 0.395381 
+Eval:: MAE: 0.317367 RMSE: 0.403544 
+Eval:: MAE: 0.310009 RMSE: 0.39131 
+Eval:: MAE: 0.310244 RMSE: 0.392716 
+Eval:: MAE: 0.327023 RMSE: 0.410386 
+Eval:: MAE: 0.314289 RMSE: 0.390594 
+Eval:: MAE: 0.326887 RMSE: 0.41337 
+Mean:: MAE: 0.313545 RMSE: 0.396555 
+STD:: MAE: 0.007544 RMSE: 0.008752 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.31118 RMSE: 0.392731 
+Eval:: MAE: 0.308429 RMSE: 0.399077 
+Eval:: MAE: 0.320471 RMSE: 0.397618 
+Eval:: MAE: 0.32001 RMSE: 0.404591 
+Eval:: MAE: 0.315415 RMSE: 0.399078 
+Eval:: MAE: 0.32216 RMSE: 0.407094 
+Eval:: MAE: 0.315175 RMSE: 0.401202 
+Eval:: MAE: 0.323481 RMSE: 0.399353 
+Eval:: MAE: 0.307797 RMSE: 0.386999 
+Eval:: MAE: 0.311427 RMSE: 0.394553 
+Mean:: MAE: 0.315555 RMSE: 0.398230 
+STD:: MAE: 0.005457 RMSE: 0.005485 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.309238 RMSE: 0.389102 
+Eval:: MAE: 0.310732 RMSE: 0.391906 
+Eval:: MAE: 0.313852 RMSE: 0.396928 
+Eval:: MAE: 0.309573 RMSE: 0.395684 
+Eval:: MAE: 0.317282 RMSE: 0.396856 
+Eval:: MAE: 0.312339 RMSE: 0.391989 
+Eval:: MAE: 0.321157 RMSE: 0.407901 
+Eval:: MAE: 0.317604 RMSE: 0.396521 
+Eval:: MAE: 0.320078 RMSE: 0.407669 
+Eval:: MAE: 0.330952 RMSE: 0.414539 
+Mean:: MAE: 0.316281 RMSE: 0.398909 
+STD:: MAE: 0.006348 RMSE: 0.007869 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.320869 RMSE: 0.402635 
+Eval:: MAE: 0.321441 RMSE: 0.40865 
+Eval:: MAE: 0.30732 RMSE: 0.394849 
+Eval:: MAE: 0.310941 RMSE: 0.387848 
+Eval:: MAE: 0.327921 RMSE: 0.414316 
+Eval:: MAE: 0.314943 RMSE: 0.395516 
+Eval:: MAE: 0.302722 RMSE: 0.381637 
+Eval:: MAE: 0.315041 RMSE: 0.393815 
+Eval:: MAE: 0.313253 RMSE: 0.395735 
+Eval:: MAE: 0.319073 RMSE: 0.410359 
+Mean:: MAE: 0.315352 RMSE: 0.398536 
+STD:: MAE: 0.006982 RMSE: 0.009801 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.306162 RMSE: 0.38459 
+Eval:: MAE: 0.321943 RMSE: 0.408517 
+Eval:: MAE: 0.315518 RMSE: 0.391281 
+Eval:: MAE: 0.328403 RMSE: 0.416522 
+Eval:: MAE: 0.316149 RMSE: 0.402667 
+Eval:: MAE: 0.314012 RMSE: 0.39904 
+Eval:: MAE: 0.323926 RMSE: 0.403979 
+Eval:: MAE: 0.313553 RMSE: 0.397661 
+Eval:: MAE: 0.3223 RMSE: 0.402048 
+Eval:: MAE: 0.301125 RMSE: 0.383989 
+Mean:: MAE: 0.316309 RMSE: 0.399029 
+STD:: MAE: 0.007867 RMSE: 0.009693 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.312708 RMSE: 0.392439 
+Eval:: MAE: 0.321735 RMSE: 0.406703 
+Eval:: MAE: 0.316629 RMSE: 0.407462 
+Eval:: MAE: 0.317346 RMSE: 0.399923 
+Eval:: MAE: 0.328247 RMSE: 0.411923 
+Eval:: MAE: 0.305472 RMSE: 0.389685 
+Eval:: MAE: 0.312989 RMSE: 0.394841 
+Eval:: MAE: 0.307707 RMSE: 0.384505 
+Eval:: MAE: 0.316731 RMSE: 0.4061 
+Eval:: MAE: 0.308447 RMSE: 0.388093 
+Mean:: MAE: 0.314801 RMSE: 0.398167 
+STD:: MAE: 0.006541 RMSE: 0.009047 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.308539 RMSE: 0.390247 
+Eval:: MAE: 0.320576 RMSE: 0.406044 
+Eval:: MAE: 0.320493 RMSE: 0.401121 
+Eval:: MAE: 0.32586 RMSE: 0.413041 
+Eval:: MAE: 0.312698 RMSE: 0.387557 
+Eval:: MAE: 0.306957 RMSE: 0.391403 
+Eval:: MAE: 0.325966 RMSE: 0.408153 
+Eval:: MAE: 0.309581 RMSE: 0.39534 
+Eval:: MAE: 0.307655 RMSE: 0.390746 
+Eval:: MAE: 0.323961 RMSE: 0.407574 
+Mean:: MAE: 0.316229 RMSE: 0.399123 
+STD:: MAE: 0.007481 RMSE: 0.008690 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.322515 RMSE: 0.404739 
+Eval:: MAE: 0.322075 RMSE: 0.405912 
+Eval:: MAE: 0.306684 RMSE: 0.380085 
+Eval:: MAE: 0.32771 RMSE: 0.418062 
+Eval:: MAE: 0.310977 RMSE: 0.392139 
+Eval:: MAE: 0.312634 RMSE: 0.399689 
+Eval:: MAE: 0.316832 RMSE: 0.395325 
+Eval:: MAE: 0.318058 RMSE: 0.405851 
+Eval:: MAE: 0.328142 RMSE: 0.413274 
+Eval:: MAE: 0.310797 RMSE: 0.390445 
+Mean:: MAE: 0.317642 RMSE: 0.400552 
+STD:: MAE: 0.007016 RMSE: 0.010783 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.320231 RMSE: 0.397344 
+Eval:: MAE: 0.311239 RMSE: 0.39075 
+Eval:: MAE: 0.319422 RMSE: 0.401512 
+Eval:: MAE: 0.314098 RMSE: 0.395065 
+Eval:: MAE: 0.310066 RMSE: 0.393236 
+Eval:: MAE: 0.32148 RMSE: 0.406232 
+Eval:: MAE: 0.306641 RMSE: 0.390392 
+Eval:: MAE: 0.314971 RMSE: 0.400206 
+Eval:: MAE: 0.30771 RMSE: 0.388475 
+Eval:: MAE: 0.330819 RMSE: 0.424373 
+Mean:: MAE: 0.315668 RMSE: 0.398759 
+STD:: MAE: 0.007050 RMSE: 0.010038 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.328801 RMSE: 0.423149 
+Eval:: MAE: 0.315042 RMSE: 0.39372 
+Eval:: MAE: 0.324393 RMSE: 0.406918 
+Eval:: MAE: 0.318141 RMSE: 0.40383 
+Eval:: MAE: 0.313936 RMSE: 0.404551 
+Eval:: MAE: 0.317736 RMSE: 0.399531 
+Eval:: MAE: 0.312526 RMSE: 0.388214 
+Eval:: MAE: 0.323481 RMSE: 0.402206 
+Eval:: MAE: 0.312493 RMSE: 0.397496 
+Eval:: MAE: 0.308805 RMSE: 0.386374 
+Mean:: MAE: 0.317535 RMSE: 0.400599 
+STD:: MAE: 0.005963 RMSE: 0.009954 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.326853 RMSE: 0.408223 
+Eval:: MAE: 0.318893 RMSE: 0.409175 
+Eval:: MAE: 0.325849 RMSE: 0.42106 
+Eval:: MAE: 0.299489 RMSE: 0.373144 
+Eval:: MAE: 0.318909 RMSE: 0.402966 
+Eval:: MAE: 0.313855 RMSE: 0.394435 
+Eval:: MAE: 0.311502 RMSE: 0.396515 
+Eval:: MAE: 0.311517 RMSE: 0.387735 
+Eval:: MAE: 0.3321 RMSE: 0.420663 
+Eval:: MAE: 0.303499 RMSE: 0.38262 
+Mean:: MAE: 0.316247 RMSE: 0.399654 
+STD:: MAE: 0.009819 RMSE: 0.014989 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.313813 RMSE: 0.395686 
+Eval:: MAE: 0.314552 RMSE: 0.398963 
+Eval:: MAE: 0.315674 RMSE: 0.399307 
+Eval:: MAE: 0.310279 RMSE: 0.403634 
+Eval:: MAE: 0.315498 RMSE: 0.397509 
+Eval:: MAE: 0.310603 RMSE: 0.393303 
+Eval:: MAE: 0.314708 RMSE: 0.395709 
+Eval:: MAE: 0.31204 RMSE: 0.390751 
+Eval:: MAE: 0.318313 RMSE: 0.397595 
+Eval:: MAE: 0.323216 RMSE: 0.404507 
+Mean:: MAE: 0.314870 RMSE: 0.397696 
+STD:: MAE: 0.003621 RMSE: 0.004018 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.315768 RMSE: 0.396535 
+Eval:: MAE: 0.310646 RMSE: 0.399873 
+Eval:: MAE: 0.318118 RMSE: 0.403565 
+Eval:: MAE: 0.323545 RMSE: 0.405466 
+Eval:: MAE: 0.316758 RMSE: 0.398939 
+Eval:: MAE: 0.323428 RMSE: 0.409968 
+Eval:: MAE: 0.309137 RMSE: 0.394042 
+Eval:: MAE: 0.3265 RMSE: 0.410616 
+Eval:: MAE: 0.31978 RMSE: 0.404837 
+Eval:: MAE: 0.308151 RMSE: 0.389889 
+Mean:: MAE: 0.317183 RMSE: 0.401373 
+STD:: MAE: 0.006043 RMSE: 0.006404 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.312739 RMSE: 0.392297 
+Eval:: MAE: 0.327811 RMSE: 0.420186 
+Eval:: MAE: 0.320463 RMSE: 0.400594 
+Eval:: MAE: 0.311004 RMSE: 0.388248 
+Eval:: MAE: 0.32191 RMSE: 0.412595 
+Eval:: MAE: 0.319348 RMSE: 0.402329 
+Eval:: MAE: 0.320798 RMSE: 0.408337 
+Eval:: MAE: 0.325498 RMSE: 0.406501 
+Eval:: MAE: 0.311085 RMSE: 0.398187 
+Eval:: MAE: 0.311058 RMSE: 0.394164 
+Mean:: MAE: 0.318171 RMSE: 0.402344 
+STD:: MAE: 0.005965 RMSE: 0.009293 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.319866 RMSE: 0.410077 
+Eval:: MAE: 0.321274 RMSE: 0.402087 
+Eval:: MAE: 0.309138 RMSE: 0.398545 
+Eval:: MAE: 0.311219 RMSE: 0.389306 
+Eval:: MAE: 0.330631 RMSE: 0.422428 
+Eval:: MAE: 0.317411 RMSE: 0.398272 
+Eval:: MAE: 0.316074 RMSE: 0.392428 
+Eval:: MAE: 0.316935 RMSE: 0.39945 
+Eval:: MAE: 0.322453 RMSE: 0.408013 
+Eval:: MAE: 0.320226 RMSE: 0.406958 
+Mean:: MAE: 0.318523 RMSE: 0.402756 
+STD:: MAE: 0.005705 RMSE: 0.009070 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.306573 RMSE: 0.388054 
+Eval:: MAE: 0.31903 RMSE: 0.401014 
+Eval:: MAE: 0.320657 RMSE: 0.407008 
+Eval:: MAE: 0.326611 RMSE: 0.412497 
+Eval:: MAE: 0.314074 RMSE: 0.405757 
+Eval:: MAE: 0.303914 RMSE: 0.384015 
+Eval:: MAE: 0.327275 RMSE: 0.410168 
+Eval:: MAE: 0.322245 RMSE: 0.40635 
+Eval:: MAE: 0.315991 RMSE: 0.396374 
+Eval:: MAE: 0.30844 RMSE: 0.391132 
+Mean:: MAE: 0.316481 RMSE: 0.400237 
+STD:: MAE: 0.007766 RMSE: 0.009341 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.315268 RMSE: 0.401631 
+Eval:: MAE: 0.31683 RMSE: 0.397109 
+Eval:: MAE: 0.312487 RMSE: 0.390544 
+Eval:: MAE: 0.321646 RMSE: 0.410281 
+Eval:: MAE: 0.30378 RMSE: 0.384902 
+Eval:: MAE: 0.314875 RMSE: 0.397818 
+Eval:: MAE: 0.325616 RMSE: 0.411953 
+Eval:: MAE: 0.319328 RMSE: 0.405477 
+Eval:: MAE: 0.328588 RMSE: 0.420318 
+Eval:: MAE: 0.319444 RMSE: 0.402385 
+Mean:: MAE: 0.317786 RMSE: 0.402242 
+STD:: MAE: 0.006618 RMSE: 0.009899 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.312961 RMSE: 0.398884 
+Eval:: MAE: 0.322762 RMSE: 0.405594 
+Eval:: MAE: 0.319253 RMSE: 0.401093 
+Eval:: MAE: 0.319441 RMSE: 0.406517 
+Eval:: MAE: 0.316772 RMSE: 0.399411 
+Eval:: MAE: 0.319874 RMSE: 0.402261 
+Eval:: MAE: 0.319409 RMSE: 0.405939 
+Eval:: MAE: 0.322177 RMSE: 0.404983 
+Eval:: MAE: 0.324008 RMSE: 0.404923 
+Eval:: MAE: 0.316169 RMSE: 0.407916 
+Mean:: MAE: 0.319283 RMSE: 0.403752 
+STD:: MAE: 0.003149 RMSE: 0.002964 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.332852 RMSE: 0.418926 
+Eval:: MAE: 0.326396 RMSE: 0.414186 
+Eval:: MAE: 0.327174 RMSE: 0.420531 
+Eval:: MAE: 0.335996 RMSE: 0.424204 
+Eval:: MAE: 0.308148 RMSE: 0.391674 
+Eval:: MAE: 0.319843 RMSE: 0.403362 
+Eval:: MAE: 0.314404 RMSE: 0.40062 
+Eval:: MAE: 0.319907 RMSE: 0.403392 
+Eval:: MAE: 0.318505 RMSE: 0.396197 
+Eval:: MAE: 0.314447 RMSE: 0.394301 
+Mean:: MAE: 0.321767 RMSE: 0.406739 
+STD:: MAE: 0.008289 RMSE: 0.011190 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.31765 RMSE: 0.405536 
+Eval:: MAE: 0.319584 RMSE: 0.401708 
+Eval:: MAE: 0.319073 RMSE: 0.401644 
+Eval:: MAE: 0.312 RMSE: 0.39453 
+Eval:: MAE: 0.31742 RMSE: 0.396588 
+Eval:: MAE: 0.323767 RMSE: 0.412265 
+Eval:: MAE: 0.311716 RMSE: 0.386336 
+Eval:: MAE: 0.327231 RMSE: 0.426207 
+Eval:: MAE: 0.325834 RMSE: 0.411939 
+Eval:: MAE: 0.319086 RMSE: 0.401048 
+Mean:: MAE: 0.319336 RMSE: 0.403780 
+STD:: MAE: 0.004927 RMSE: 0.010500 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.320983 RMSE: 0.407913 
+Eval:: MAE: 0.31874 RMSE: 0.406058 
+Eval:: MAE: 0.31615 RMSE: 0.398815 
+Eval:: MAE: 0.323367 RMSE: 0.407608 
+Eval:: MAE: 0.318754 RMSE: 0.403599 
+Eval:: MAE: 0.315915 RMSE: 0.399142 
+Eval:: MAE: 0.332795 RMSE: 0.420249 
+Eval:: MAE: 0.318605 RMSE: 0.401352 
+Eval:: MAE: 0.316441 RMSE: 0.400472 
+Eval:: MAE: 0.315137 RMSE: 0.397601 
+Mean:: MAE: 0.319689 RMSE: 0.404281 
+STD:: MAE: 0.004980 RMSE: 0.006379 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.321806 RMSE: 0.405396 
+Eval:: MAE: 0.322557 RMSE: 0.412004 
+Eval:: MAE: 0.330544 RMSE: 0.420367 
+Eval:: MAE: 0.310965 RMSE: 0.390335 
+Eval:: MAE: 0.320458 RMSE: 0.398779 
+Eval:: MAE: 0.323827 RMSE: 0.413332 
+Eval:: MAE: 0.312519 RMSE: 0.403792 
+Eval:: MAE: 0.323493 RMSE: 0.40409 
+Eval:: MAE: 0.326439 RMSE: 0.417411 
+Eval:: MAE: 0.319174 RMSE: 0.40677 
+Mean:: MAE: 0.321178 RMSE: 0.407228 
+STD:: MAE: 0.005603 RMSE: 0.008476 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.327627 RMSE: 0.412635 
+Eval:: MAE: 0.329152 RMSE: 0.42171 
+Eval:: MAE: 0.305933 RMSE: 0.385374 
+Eval:: MAE: 0.320753 RMSE: 0.407722 
+Eval:: MAE: 0.316692 RMSE: 0.396443 
+Eval:: MAE: 0.319769 RMSE: 0.406167 
+Eval:: MAE: 0.326775 RMSE: 0.420711 
+Eval:: MAE: 0.328327 RMSE: 0.410991 
+Eval:: MAE: 0.329145 RMSE: 0.412169 
+Eval:: MAE: 0.316884 RMSE: 0.401588 
+Mean:: MAE: 0.322106 RMSE: 0.407551 
+STD:: MAE: 0.007181 RMSE: 0.010418 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.313238 RMSE: 0.401789 
+Eval:: MAE: 0.325971 RMSE: 0.406069 
+Eval:: MAE: 0.32739 RMSE: 0.409875 
+Eval:: MAE: 0.330766 RMSE: 0.419046 
+Eval:: MAE: 0.323771 RMSE: 0.405835 
+Eval:: MAE: 0.319161 RMSE: 0.398937 
+Eval:: MAE: 0.330025 RMSE: 0.42259 
+Eval:: MAE: 0.304943 RMSE: 0.390908 
+Eval:: MAE: 0.317004 RMSE: 0.40478 
+Eval:: MAE: 0.330832 RMSE: 0.417457 
+Mean:: MAE: 0.322310 RMSE: 0.407729 
+STD:: MAE: 0.008167 RMSE: 0.009267 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.322959 RMSE: 0.40899 
+Eval:: MAE: 0.313928 RMSE: 0.401339 
+Eval:: MAE: 0.317948 RMSE: 0.401216 
+Eval:: MAE: 0.310934 RMSE: 0.386747 
+Eval:: MAE: 0.321302 RMSE: 0.403261 
+Eval:: MAE: 0.327165 RMSE: 0.414848 
+Eval:: MAE: 0.328227 RMSE: 0.412778 
+Eval:: MAE: 0.332203 RMSE: 0.420469 
+Eval:: MAE: 0.326949 RMSE: 0.41347 
+Eval:: MAE: 0.310735 RMSE: 0.394694 
+Mean:: MAE: 0.321235 RMSE: 0.405781 
+STD:: MAE: 0.007215 RMSE: 0.009739 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.324045 RMSE: 0.410922 
+Eval:: MAE: 0.326072 RMSE: 0.411139 
+Eval:: MAE: 0.31374 RMSE: 0.39135 
+Eval:: MAE: 0.325441 RMSE: 0.418119 
+Eval:: MAE: 0.321191 RMSE: 0.403796 
+Eval:: MAE: 0.310802 RMSE: 0.392304 
+Eval:: MAE: 0.323981 RMSE: 0.41065 
+Eval:: MAE: 0.315273 RMSE: 0.408227 
+Eval:: MAE: 0.337202 RMSE: 0.418868 
+Eval:: MAE: 0.32337 RMSE: 0.404924 
+Mean:: MAE: 0.322112 RMSE: 0.407030 
+STD:: MAE: 0.007134 RMSE: 0.008873 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.314779 RMSE: 0.398504 
+Eval:: MAE: 0.306592 RMSE: 0.395434 
+Eval:: MAE: 0.324855 RMSE: 0.409769 
+Eval:: MAE: 0.324475 RMSE: 0.408198 
+Eval:: MAE: 0.331416 RMSE: 0.414411 
+Eval:: MAE: 0.326793 RMSE: 0.412666 
+Eval:: MAE: 0.31676 RMSE: 0.39877 
+Eval:: MAE: 0.334214 RMSE: 0.425474 
+Eval:: MAE: 0.329156 RMSE: 0.411945 
+Eval:: MAE: 0.334922 RMSE: 0.41892 
+Mean:: MAE: 0.324396 RMSE: 0.409409 
+STD:: MAE: 0.008677 RMSE: 0.009053 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.320377 RMSE: 0.406441 
+Eval:: MAE: 0.32031 RMSE: 0.405411 
+Eval:: MAE: 0.319359 RMSE: 0.4102 
+Eval:: MAE: 0.328157 RMSE: 0.414316 
+Eval:: MAE: 0.33892 RMSE: 0.425503 
+Eval:: MAE: 0.316181 RMSE: 0.400959 
+Eval:: MAE: 0.33174 RMSE: 0.417959 
+Eval:: MAE: 0.325743 RMSE: 0.409522 
+Eval:: MAE: 0.326453 RMSE: 0.408051 
+Eval:: MAE: 0.317016 RMSE: 0.399002 
+Mean:: MAE: 0.324426 RMSE: 0.409736 
+STD:: MAE: 0.006821 RMSE: 0.007497 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.317793 RMSE: 0.39807 
+Eval:: MAE: 0.335497 RMSE: 0.422487 
+Eval:: MAE: 0.309443 RMSE: 0.393198 
+Eval:: MAE: 0.322727 RMSE: 0.405485 
+Eval:: MAE: 0.334242 RMSE: 0.428001 
+Eval:: MAE: 0.317034 RMSE: 0.400134 
+Eval:: MAE: 0.338104 RMSE: 0.428734 
+Eval:: MAE: 0.338334 RMSE: 0.421389 
+Eval:: MAE: 0.31166 RMSE: 0.397316 
+Eval:: MAE: 0.332798 RMSE: 0.419343 
+Mean:: MAE: 0.325763 RMSE: 0.411416 
+STD:: MAE: 0.010680 RMSE: 0.013157 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.316078 RMSE: 0.405128 
+Eval:: MAE: 0.328496 RMSE: 0.416018 
+Eval:: MAE: 0.317772 RMSE: 0.401837 
+Eval:: MAE: 0.323725 RMSE: 0.406484 
+Eval:: MAE: 0.33915 RMSE: 0.427243 
+Eval:: MAE: 0.331833 RMSE: 0.423125 
+Eval:: MAE: 0.324879 RMSE: 0.408545 
+Eval:: MAE: 0.31884 RMSE: 0.399387 
+Eval:: MAE: 0.330792 RMSE: 0.417133 
+Eval:: MAE: 0.324482 RMSE: 0.411922 
+Mean:: MAE: 0.325605 RMSE: 0.411682 
+STD:: MAE: 0.006788 RMSE: 0.008658 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.326137 RMSE: 0.408678 
+Eval:: MAE: 0.335749 RMSE: 0.418221 
+Eval:: MAE: 0.335279 RMSE: 0.420288 
+Eval:: MAE: 0.317215 RMSE: 0.403721 
+Eval:: MAE: 0.309254 RMSE: 0.393622 
+Eval:: MAE: 0.310923 RMSE: 0.385254 
+Eval:: MAE: 0.33614 RMSE: 0.430744 
+Eval:: MAE: 0.32123 RMSE: 0.40028 
+Eval:: MAE: 0.336157 RMSE: 0.428096 
+Eval:: MAE: 0.319648 RMSE: 0.408489 
+Mean:: MAE: 0.324773 RMSE: 0.409739 
+STD:: MAE: 0.010100 RMSE: 0.013961 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.321802 RMSE: 0.411973 
+Eval:: MAE: 0.321778 RMSE: 0.402159 
+Eval:: MAE: 0.329257 RMSE: 0.418074 
+Eval:: MAE: 0.325296 RMSE: 0.415376 
+Eval:: MAE: 0.317157 RMSE: 0.396935 
+Eval:: MAE: 0.339564 RMSE: 0.426071 
+Eval:: MAE: 0.334188 RMSE: 0.421661 
+Eval:: MAE: 0.32397 RMSE: 0.404888 
+Eval:: MAE: 0.315196 RMSE: 0.398078 
+Eval:: MAE: 0.331234 RMSE: 0.421384 
+Mean:: MAE: 0.325944 RMSE: 0.411660 
+STD:: MAE: 0.007239 RMSE: 0.009974 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.3356 RMSE: 0.421249 
+Eval:: MAE: 0.327794 RMSE: 0.414383 
+Eval:: MAE: 0.332668 RMSE: 0.417381 
+Eval:: MAE: 0.317244 RMSE: 0.403788 
+Eval:: MAE: 0.320801 RMSE: 0.398948 
+Eval:: MAE: 0.324218 RMSE: 0.405704 
+Eval:: MAE: 0.346338 RMSE: 0.437455 
+Eval:: MAE: 0.332157 RMSE: 0.420688 
+Eval:: MAE: 0.328241 RMSE: 0.415459 
+Eval:: MAE: 0.330816 RMSE: 0.41801 
+Mean:: MAE: 0.329588 RMSE: 0.415306 
+STD:: MAE: 0.007731 RMSE: 0.010295 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.319869 RMSE: 0.399488 
+Eval:: MAE: 0.322906 RMSE: 0.405705 
+Eval:: MAE: 0.322536 RMSE: 0.410435 
+Eval:: MAE: 0.331833 RMSE: 0.417325 
+Eval:: MAE: 0.339656 RMSE: 0.428418 
+Eval:: MAE: 0.333228 RMSE: 0.41723 
+Eval:: MAE: 0.328279 RMSE: 0.411291 
+Eval:: MAE: 0.325702 RMSE: 0.419466 
+Eval:: MAE: 0.328431 RMSE: 0.413122 
+Eval:: MAE: 0.333333 RMSE: 0.42212 
+Mean:: MAE: 0.328577 RMSE: 0.414460 
+STD:: MAE: 0.005749 RMSE: 0.007895 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.338473 RMSE: 0.429962 
+Eval:: MAE: 0.333678 RMSE: 0.423431 
+Eval:: MAE: 0.33917 RMSE: 0.429196 
+Eval:: MAE: 0.327422 RMSE: 0.413017 
+Eval:: MAE: 0.32021 RMSE: 0.402303 
+Eval:: MAE: 0.325949 RMSE: 0.410412 
+Eval:: MAE: 0.325478 RMSE: 0.419342 
+Eval:: MAE: 0.324727 RMSE: 0.412812 
+Eval:: MAE: 0.323018 RMSE: 0.407293 
+Eval:: MAE: 0.325822 RMSE: 0.40667 
+Mean:: MAE: 0.328395 RMSE: 0.415444 
+STD:: MAE: 0.006140 RMSE: 0.009128 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.329964 RMSE: 0.415202 
+Eval:: MAE: 0.33326 RMSE: 0.421411 
+Eval:: MAE: 0.338995 RMSE: 0.424854 
+Eval:: MAE: 0.328866 RMSE: 0.417182 
+Eval:: MAE: 0.31624 RMSE: 0.402693 
+Eval:: MAE: 0.334906 RMSE: 0.420067 
+Eval:: MAE: 0.320586 RMSE: 0.40247 
+Eval:: MAE: 0.337288 RMSE: 0.426562 
+Eval:: MAE: 0.319203 RMSE: 0.404626 
+Eval:: MAE: 0.332442 RMSE: 0.417584 
+Mean:: MAE: 0.329175 RMSE: 0.415265 
+STD:: MAE: 0.007508 RMSE: 0.008511 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.328257 RMSE: 0.41596 
+Eval:: MAE: 0.329606 RMSE: 0.415831 
+Eval:: MAE: 0.320694 RMSE: 0.409676 
+Eval:: MAE: 0.325138 RMSE: 0.406403 
+Eval:: MAE: 0.332242 RMSE: 0.416364 
+Eval:: MAE: 0.339261 RMSE: 0.428209 
+Eval:: MAE: 0.335887 RMSE: 0.42431 
+Eval:: MAE: 0.334517 RMSE: 0.422763 
+Eval:: MAE: 0.314918 RMSE: 0.400967 
+Eval:: MAE: 0.328078 RMSE: 0.413427 
+Mean:: MAE: 0.328860 RMSE: 0.415391 
+STD:: MAE: 0.006910 RMSE: 0.007906 
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_df.csv 
+Recommender Algorithm:: Matrix Factorization | K Folds: 10
+
+Eval:: MAE: 0.328844 RMSE: 0.415171 
+Eval:: MAE: 0.327974 RMSE: 0.413719 
+Eval:: MAE: 0.333205 RMSE: 0.421363 
+Eval:: MAE: 0.329471 RMSE: 0.420858 
+Eval:: MAE: 0.324979 RMSE: 0.408325 
+Eval:: MAE: 0.341256 RMSE: 0.423151 
+Eval:: MAE: 0.342302 RMSE: 0.435895 
+Eval:: MAE: 0.313489 RMSE: 0.400575 
+Eval:: MAE: 0.331133 RMSE: 0.417544 
+Eval:: MAE: 0.32911 RMSE: 0.410227 
+Mean:: MAE: 0.330176 RMSE: 0.416683 
+STD:: MAE: 0.007705 RMSE: 0.009127 
