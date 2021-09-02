@@ -17,6 +17,26 @@ def matrix_fact_rating_prediction():
                     write_predictions = True).compute()
 
 
+def matrix_fact_altering_factors():
+
+    #complete database file, without splitting
+    input_file = Path.cwd().joinpath('baseline_df.csv') 
+    input_file = str(input_file)
+
+    prediction_dir = Path.cwd().joinpath('matrix_fact_rating_prediction')
+    prediction_dir  = str(prediction_dir)
+
+
+    for i in range(1, 51):
+
+        recommender = MatrixFactorization(factors=i)
+
+        CrossValidation(input_file, recommender, prediction_dir, 
+                        k_folds = 10, header=1, write_predictions = True).compute()
+
 if __name__ == '__main__':
 
-    matrix_fact_rating_prediction()
+    #matrix_fact_rating_prediction()
+
+    # run with > output.txt
+    matrix_fact_altering_factors()
