@@ -17,7 +17,7 @@ def matrix_fact_rating_prediction():
                     write_predictions = True).compute()
 
 
-def matrix_fact_altering_factors():
+def matrix_fact_altering_factors(step):
 
     #complete database file, without splitting
     input_file = Path.cwd().joinpath('baseline_df.csv') 
@@ -27,7 +27,7 @@ def matrix_fact_altering_factors():
     prediction_dir  = str(prediction_dir)
 
 
-    for i in range(1, 51):
+    for i in range(1, 51, step):
 
         recommender = MatrixFactorization(factors=i)
 
@@ -39,4 +39,6 @@ if __name__ == '__main__':
     #matrix_fact_rating_prediction()
 
     # run with > output.txt
-    matrix_fact_altering_factors()
+    #matrix_fact_altering_factors(step=0)
+
+    matrix_fact_altering_factors(step=5)
