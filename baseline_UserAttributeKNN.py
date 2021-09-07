@@ -3,9 +3,11 @@ import pandas as pd
 from pathlib import Path
 from caserec.utils.cross_validation import CrossValidation
 from caserec.recommenders.rating_prediction.user_attribute_knn import UserAttributeKNN
+import files
+import graphics
 
 
-def metadata_file_df():
+def generate_metadata_file_df():
     
     csv_file = Path.cwd().joinpath('final_shuffled_dataset.csv')
 
@@ -77,7 +79,7 @@ def metadata_file_df():
     # data containing the users and its personality:
     path_temp_csv = Path.cwd().joinpath('user_perso_metadata.csv')
     # index = True star indexing the csv file with 0:
-    final_df.to_csv(path_temp_csv, sep='\t', index = False, header=True)
+    final_df.to_csv(path_temp_csv, sep='\t', index = False, header=False)
 
 
     user_interaction_df = pd.DataFrame(baseline_df_tuples,
@@ -89,7 +91,7 @@ def metadata_file_df():
     # data containing the interaction for usrAttKNN:
     path_temp_csv = Path.cwd().joinpath('baseline_UserAtrrKNN_df.csv')
     # index = True star indexing the csv file with 0:
-    user_interaction_df.to_csv(path_temp_csv, sep='\t', index = False, header=True)
+    user_interaction_df.to_csv(path_temp_csv, sep='\t', index = False, header=False)
 
 def user_hashes_to_id(user_id_list):
 
@@ -108,23 +110,69 @@ def user_hashes_to_id(user_id_list):
     #print(hash_id_dict)
     return hash_id_dict
 
-def user_knn_rating_prediction_cosine(metric):
+#use this function with > filename.txt
+def user_attr_knn_rating_prediction(metric):
 
     #complete database file, without splitting
-    input_file = Path.cwd().joinpath('baseline_df.csv') 
+    input_file = Path.cwd().joinpath('baseline_UserAtrrKNN_df.csv') 
     input_file = str(input_file)
 
     prediction_dir = Path.cwd().joinpath('UserKnnAtrr')
     prediction_dir  = str(prediction_dir)
 
     only_user_perso = Path.cwd().joinpath('user_perso_metadata.csv') 
+    print("metric: ", metric)
 
-    recommender = UserAttributeKNN(similarity_metric=metric, metadata_file=only_user_perso )
+    for num_neighbors in range(1, 51):
 
-    CrossValidation(input_file, recommender, prediction_dir, k_folds = 10, header=1,
-                    write_predictions = True).compute()
+        print("k neighbors= ", num_neighbors)
+        recommender = UserAttributeKNN(similarity_metric=metric, metadata_file=only_user_perso,
+                                        k_neighbors= num_neighbors)
+
+        CrossValidation(input_file, recommender, prediction_dir, k_folds = 10, header=None,
+                        write_predictions = True).compute()
 
 
+def UserKNN_UserAttrKNN_graphic():
+
+    plot_info = []
+
+    baseline_UserKNN = files.user_KNN_file
+    MRSE_values_list_UserKNN = graphics.MRSE_values_from_file(baseline_UserKNN)
+    plot_0 = {'RMSE_values': MRSE_values_list_UserKNN, 'legend': 'UserKNN - baseline', 'color': 'rebeccapurple'}
+
+    plot_info.append(plot_0)
+
+    proposal_UserAttrKNN = files.UserATTRKNN_file_chebyshev
+    MRSE_values_list_UserAttrKNN = graphics.MRSE_values_from_file(proposal_UserAttrKNN)
+    plot_1 = {'RMSE_values': MRSE_values_list_UserAttrKNN, 'legend': 'UserAttrKNN - chebyshev', 'color': 'blue'}
+
+    plot_info.append(plot_1)
+
+    proposal_UserAttrKNN = files.UserATTRKNN_file_manhattan
+    MRSE_values_list_UserAttrKNN = graphics.MRSE_values_from_file(proposal_UserAttrKNN)
+    plot_2 = {'RMSE_values': MRSE_values_list_UserAttrKNN, 'legend': 'UserAttrKNN - manhattan', 'color': 'tomato'}
+
+    plot_info.append(plot_2)
+
+
+    proposal_UserAttrKNN = files.UserATTRKNN_file_minkowski
+    MRSE_values_list_UserAttrKNN = graphics.MRSE_values_from_file(proposal_UserAttrKNN)
+    plot_3 = {'RMSE_values': MRSE_values_list_UserAttrKNN, 'legend': 'UserAttrKNN - minkopwski', 'color': 'gold'}
+
+    plot_info.append(plot_3)
+
+    graphics.new_proposals_graphic(6, 50, plot_info, "Comparação do baseline UserKNN com as propostas de UserAttrKNN")
+
+    
 if __name__ == '__main__':
 
-    metadata_file_df()
+    #generate_metadata_file_df()
+
+    #user_attr_knn_rating_prediction('minkowski')
+
+    #user_attr_knn_rating_prediction('cityblock')
+
+    #user_attr_knn_rating_prediction('chebyshev')
+
+    UserKNN_UserAttrKNN_graphic()

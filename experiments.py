@@ -2,7 +2,7 @@ from matplotlib.pyplot import plot
 import graphics
 from pathlib import Path
 import pandas as pd
-
+import files
 #userKNN with cosine:
 def exp_baseline_1():
 
@@ -227,6 +227,13 @@ def all_baselines_versus_proposal1():
 
     plot_info.append(plot_3)
 
+
+    baseline_matrix_fact = files.matrix_fact_file
+    MRSE_values_list_matr_fact = graphics.MRSE_values_from_file(baseline_matrix_fact)
+    plot_4 = {'RMSE_values': MRSE_values_list_matr_fact[:-1], 'legend': 'Fatoração de Matrizes - 1 a 49 fatores (K)', 'color': 'rebeccapurple'}
+
+    plot_info.append(plot_4)
+
     graphics.baselines_versus_proposal(1, 49, plot_info)
 
 # perso user + perso movie + genres
@@ -263,6 +270,14 @@ def all_baselines_versus_proposal2():
     plot_3 = {'RMSE_values': MRSE_values_list_hamming, 'legend': 'Proposta 2 - hamming', 'color': 'limegreen'}
 
     plot_info.append(plot_3)
+
+
+    baseline_matrix_fact = files.matrix_fact_file
+    MRSE_values_list_matr_fact = graphics.MRSE_values_from_file(baseline_matrix_fact)
+    plot_4 = {'RMSE_values': MRSE_values_list_matr_fact[:-1], 'legend': 'Fatoração de Matrizes - 1 a 49 fatores (K)', 'color': 'rebeccapurple'}
+
+    plot_info.append(plot_4)
+
 
     graphics.baselines_versus_proposal(2, 49, plot_info)
 
@@ -302,6 +317,14 @@ def all_baselines_versus_proposal3():
 
     plot_info.append(plot_3)
 
+
+
+    baseline_matrix_fact = files.matrix_fact_file
+    MRSE_values_list_matr_fact = graphics.MRSE_values_from_file(baseline_matrix_fact)
+    plot_4 = {'RMSE_values': MRSE_values_list_matr_fact[:-1], 'legend': 'Fatoração de Matrizes - 1 a 49 fatores (K)', 'color': 'rebeccapurple'}
+
+    plot_info.append(plot_4)
+
     graphics.baselines_versus_proposal(3, 49, plot_info)
 
 
@@ -336,9 +359,16 @@ def all_baselines_versus_proposal4():
     )
 
     MRSE_values_list_hamming = list(df['MSRE'])
-    plot_3 = {'RMSE_values': MRSE_values_list_hamming, 'legend': 'Proposta 4 - hamming', 'color': 'indigo'}
+    plot_3 = {'RMSE_values': MRSE_values_list_hamming, 'legend': 'Proposta 4 - hamming', 'color': 'gold'}
 
     plot_info.append(plot_3)
+
+
+    baseline_matrix_fact = files.matrix_fact_file
+    MRSE_values_list_matr_fact = graphics.MRSE_values_from_file(baseline_matrix_fact)
+    plot_4 = {'RMSE_values': MRSE_values_list_matr_fact[:-1], 'legend': 'Fatoração de Matrizes - 1 a 49 fatores (K)', 'color': 'rebeccapurple'}
+
+    plot_info.append(plot_4)
 
     graphics.baselines_versus_proposal(4, 49, plot_info)
 
@@ -431,6 +461,13 @@ def all_baselines_versus_all_proposals():
     plot_6 = {'RMSE_values': MRSE_values_list_hamming, 'legend': 'Proposta 3 - hamming', 'color': 'lightcoral'}
 
     plot_info.append(plot_6)
+
+
+    baseline_matrix_fact = files.matrix_fact_file
+    MRSE_values_list_matr_fact = graphics.MRSE_values_from_file(baseline_matrix_fact)
+    plot_7 = {'RMSE_values': MRSE_values_list_matr_fact[:-1], 'legend': 'Fatoração de Matrizes - 1 a 49 fatores (K)', 'color': 'gold'}
+
+    plot_info.append(plot_7)
 
 
     graphics.baselines_versus_proposal(5, 49, plot_info)

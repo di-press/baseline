@@ -5,7 +5,7 @@ from pathlib import Path
 import pandas as pd
 
 
-# MSRE values for baseline?
+# MSRE values for baseline:
 def MRSE_values_from_file(filename):
 
     MSRE_values = []
@@ -23,7 +23,7 @@ def MRSE_values_from_file(filename):
                     current_MRSE = float(current_line[4])
                     MSRE_values.append(current_MRSE)
         
-    print("number of MSRE values: ", len(MSRE_values))
+    #print("number of MSRE values: ", len(MSRE_values))
 
     return MSRE_values
 
@@ -49,7 +49,7 @@ def read_csv_regr_knn(filename):
     
     df.reset_index(drop=True, inplace=False)
 
-    print(len(list(df['MSRE'])))
+    #print(len(list(df['MSRE'])))
     return list(df['MSRE'])
 
 # teal e coral:
@@ -234,7 +234,37 @@ def baselines_versus_proposal(id_proposal, num_neighbors_max, plots_info):
         plt.plot(x, plot['RMSE_values'], label = plot['legend'], color = plot['color'], marker = ".", linestyle = "solid", markersize = "7")    
 
    
-    plt.legend()
+    plt.legend(loc='best')
+
+    
+    filename = 'baselines_X_proposal_' + str(id_proposal) + '_comparison.png'
+
+
+    plt.savefig(filename)
+    plt.close()
+
+
+# fucntion to generate graphic to new approaches, only using CaseRec:
+def new_proposals_graphic(id_proposal, num_neighbors_max, 
+                              plots_info, title):
+
+    
+    plt.style.use('seaborn')
+
+    plt.title(title)
+
+    plt.xlabel("K (vizinhos)")
+    plt.ylabel("RMSE")
+
+    k_values = list(range(1, num_neighbors_max+1))
+    x = k_values
+
+    for plot in plots_info:
+
+        plt.plot(x, plot['RMSE_values'], label = plot['legend'], color = plot['color'], marker = ".", linestyle = "solid", markersize = "7")    
+
+   
+    plt.legend(loc='best')
 
     
     filename = 'baselines_X_proposal_' + str(id_proposal) + '_comparison.png'

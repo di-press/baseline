@@ -18,6 +18,16 @@ proposal_3_file = Path.cwd().joinpath('no_genre_normalization_n=50_cv=10_hamming
 proposal_4_file = Path.cwd().joinpath('no_genre_normalization_n=50_cv=10_hammingexp27.csv')
 
 
+UserATTRKNN_file_chebyshev = Path.cwd().joinpath('UserAttrKnn_chebyshev_1_to_50_neighbors.txt')
+UserATTRKNN_file_manhattan = Path.cwd().joinpath('UserAttrKnn_manhattan_1_to_50_neighbors.txt')
+UserATTRKNN_file_minkowski = Path.cwd().joinpath('UserAttrKnn_minkowski_1_to_50_neighbors.txt')
+
+
+ItemATTRKNN_file_chebyshev = Path.cwd().joinpath('ItemAttrKNN_chebyshev_1_to_50_neighbors.txt')
+ItemATTRKNN_file_manhattan = Path.cwd().joinpath('ItemAttrKNN_manhattan_1_to_50_neighbors.txt')
+ItemATTRKNN_file_minkowski = Path.cwd().joinpath('ItemAttrKNN_minkowski_1_to_50_neighbors.txt')
+
+
 # MSRE values for baselines, from its file:
 def MRSE_values_from_file_baselines(filename):
 

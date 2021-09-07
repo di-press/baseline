@@ -1,0 +1,12 @@
+Proposta 1 (perso. usuário + perso. filme) x UserKNN 
+
+Statistics=0.0000000, p=0.000000001110095
+Different distribution (reject H0)
+Proposta 1 (perso. usuário + perso. filme) x ItemKNN 
+
+Statistics=0.0000000, p=0.000000001110095
+Different distribution (reject H0)
+Proposta 1 (perso. usuário + perso. filme) x Fatoração de Matrizes 
+
+Statistics=0.0000000, p=0.000000001110095
+Different distribution (reject H0)

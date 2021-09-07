@@ -1,0 +1,901 @@
+metric:  chebyshev
+k neighbors=  1
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.318425 RMSE: 0.577027 
+Eval:: MAE: 0.303282 RMSE: 0.531293 
+Eval:: MAE: 0.310319 RMSE: 0.565201 
+Eval:: MAE: 0.291295 RMSE: 0.504534 
+Eval:: MAE: 0.332728 RMSE: 0.597732 
+Eval:: MAE: 0.329154 RMSE: 0.593116 
+Eval:: MAE: 0.297895 RMSE: 0.519863 
+Eval:: MAE: 0.30241 RMSE: 0.53115 
+Eval:: MAE: 0.31514 RMSE: 0.554236 
+Eval:: MAE: 0.316699 RMSE: 0.556789 
+Mean:: MAE: 0.311735 RMSE: 0.553094 
+STD:: MAE: 0.012629 RMSE: 0.029577 
+k neighbors=  2
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.31879 RMSE: 0.575731 
+Eval:: MAE: 0.333191 RMSE: 0.607127 
+Eval:: MAE: 0.304355 RMSE: 0.550891 
+Eval:: MAE: 0.316494 RMSE: 0.554825 
+Eval:: MAE: 0.300606 RMSE: 0.520721 
+Eval:: MAE: 0.327706 RMSE: 0.580048 
+Eval:: MAE: 0.312822 RMSE: 0.549816 
+Eval:: MAE: 0.308533 RMSE: 0.552477 
+Eval:: MAE: 0.314562 RMSE: 0.574734 
+Eval:: MAE: 0.30912 RMSE: 0.547492 
+Mean:: MAE: 0.314618 RMSE: 0.561386 
+STD:: MAE: 0.009536 RMSE: 0.022445 
+k neighbors=  3
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.295252 RMSE: 0.522484 
+Eval:: MAE: 0.302822 RMSE: 0.538608 
+Eval:: MAE: 0.323797 RMSE: 0.564472 
+Eval:: MAE: 0.34525 RMSE: 0.626453 
+Eval:: MAE: 0.291217 RMSE: 0.524167 
+Eval:: MAE: 0.305932 RMSE: 0.542828 
+Eval:: MAE: 0.316232 RMSE: 0.576847 
+Eval:: MAE: 0.315903 RMSE: 0.573219 
+Eval:: MAE: 0.321622 RMSE: 0.55894 
+Eval:: MAE: 0.326008 RMSE: 0.568333 
+Mean:: MAE: 0.314403 RMSE: 0.559635 
+STD:: MAE: 0.015305 RMSE: 0.028996 
+k neighbors=  4
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.320824 RMSE: 0.581681 
+Eval:: MAE: 0.317786 RMSE: 0.547559 
+Eval:: MAE: 0.298779 RMSE: 0.519889 
+Eval:: MAE: 0.318859 RMSE: 0.569073 
+Eval:: MAE: 0.326677 RMSE: 0.587845 
+Eval:: MAE: 0.315487 RMSE: 0.564494 
+Eval:: MAE: 0.297126 RMSE: 0.544597 
+Eval:: MAE: 0.312291 RMSE: 0.549058 
+Eval:: MAE: 0.304608 RMSE: 0.543856 
+Eval:: MAE: 0.315234 RMSE: 0.571918 
+Mean:: MAE: 0.312767 RMSE: 0.557997 
+STD:: MAE: 0.009172 RMSE: 0.019573 
+k neighbors=  5
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.32652 RMSE: 0.577034 
+Eval:: MAE: 0.327877 RMSE: 0.597448 
+Eval:: MAE: 0.301685 RMSE: 0.532668 
+Eval:: MAE: 0.304929 RMSE: 0.530429 
+Eval:: MAE: 0.318652 RMSE: 0.572515 
+Eval:: MAE: 0.305098 RMSE: 0.548898 
+Eval:: MAE: 0.304413 RMSE: 0.536754 
+Eval:: MAE: 0.293583 RMSE: 0.522873 
+Eval:: MAE: 0.293843 RMSE: 0.517884 
+Eval:: MAE: 0.299874 RMSE: 0.528491 
+Mean:: MAE: 0.307647 RMSE: 0.546499 
+STD:: MAE: 0.011812 RMSE: 0.025410 
+k neighbors=  6
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.309522 RMSE: 0.558441 
+Eval:: MAE: 0.289554 RMSE: 0.509323 
+Eval:: MAE: 0.305901 RMSE: 0.541072 
+Eval:: MAE: 0.323604 RMSE: 0.58696 
+Eval:: MAE: 0.311046 RMSE: 0.552525 
+Eval:: MAE: 0.332184 RMSE: 0.597411 
+Eval:: MAE: 0.309319 RMSE: 0.533577 
+Eval:: MAE: 0.308288 RMSE: 0.553085 
+Eval:: MAE: 0.314384 RMSE: 0.550899 
+Eval:: MAE: 0.308912 RMSE: 0.557621 
+Mean:: MAE: 0.311271 RMSE: 0.554091 
+STD:: MAE: 0.010588 RMSE: 0.023657 
+k neighbors=  7
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.313174 RMSE: 0.543652 
+Eval:: MAE: 0.303897 RMSE: 0.53392 
+Eval:: MAE: 0.291672 RMSE: 0.52279 
+Eval:: MAE: 0.317145 RMSE: 0.561813 
+Eval:: MAE: 0.315853 RMSE: 0.582098 
+Eval:: MAE: 0.326587 RMSE: 0.587488 
+Eval:: MAE: 0.320506 RMSE: 0.576741 
+Eval:: MAE: 0.321463 RMSE: 0.578685 
+Eval:: MAE: 0.341152 RMSE: 0.621377 
+Eval:: MAE: 0.306495 RMSE: 0.546091 
+Mean:: MAE: 0.315794 RMSE: 0.565465 
+STD:: MAE: 0.012777 RMSE: 0.028054 
+k neighbors=  8
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.316692 RMSE: 0.557453 
+Eval:: MAE: 0.315262 RMSE: 0.569681 
+Eval:: MAE: 0.282904 RMSE: 0.475891 
+Eval:: MAE: 0.290957 RMSE: 0.5166 
+Eval:: MAE: 0.306605 RMSE: 0.540489 
+Eval:: MAE: 0.31499 RMSE: 0.576519 
+Eval:: MAE: 0.31082 RMSE: 0.554134 
+Eval:: MAE: 0.321906 RMSE: 0.591753 
+Eval:: MAE: 0.312708 RMSE: 0.558052 
+Eval:: MAE: 0.325005 RMSE: 0.587254 
+Mean:: MAE: 0.309785 RMSE: 0.552783 
+STD:: MAE: 0.012570 RMSE: 0.033136 
+k neighbors=  9
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.311144 RMSE: 0.550474 
+Eval:: MAE: 0.314522 RMSE: 0.566089 
+Eval:: MAE: 0.298982 RMSE: 0.537571 
+Eval:: MAE: 0.313286 RMSE: 0.559654 
+Eval:: MAE: 0.305389 RMSE: 0.555068 
+Eval:: MAE: 0.309797 RMSE: 0.554405 
+Eval:: MAE: 0.309948 RMSE: 0.585972 
+Eval:: MAE: 0.311571 RMSE: 0.565821 
+Eval:: MAE: 0.291432 RMSE: 0.52427 
+Eval:: MAE: 0.318495 RMSE: 0.568559 
+Mean:: MAE: 0.308457 RMSE: 0.556788 
+STD:: MAE: 0.007555 RMSE: 0.016254 
+k neighbors=  10
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.314369 RMSE: 0.571241 
+Eval:: MAE: 0.292357 RMSE: 0.522948 
+Eval:: MAE: 0.299235 RMSE: 0.532102 
+Eval:: MAE: 0.323793 RMSE: 0.585147 
+Eval:: MAE: 0.30343 RMSE: 0.554116 
+Eval:: MAE: 0.312197 RMSE: 0.569046 
+Eval:: MAE: 0.284824 RMSE: 0.501232 
+Eval:: MAE: 0.301696 RMSE: 0.546373 
+Eval:: MAE: 0.347357 RMSE: 0.627515 
+Eval:: MAE: 0.297607 RMSE: 0.53041 
+Mean:: MAE: 0.307687 RMSE: 0.554013 
+STD:: MAE: 0.016979 RMSE: 0.034265 
+k neighbors=  11
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.325556 RMSE: 0.602826 
+Eval:: MAE: 0.295613 RMSE: 0.52007 
+Eval:: MAE: 0.301527 RMSE: 0.525825 
+Eval:: MAE: 0.327039 RMSE: 0.607266 
+Eval:: MAE: 0.293355 RMSE: 0.52914 
+Eval:: MAE: 0.332392 RMSE: 0.598597 
+Eval:: MAE: 0.32241 RMSE: 0.584696 
+Eval:: MAE: 0.308035 RMSE: 0.556977 
+Eval:: MAE: 0.297679 RMSE: 0.549145 
+Eval:: MAE: 0.29669 RMSE: 0.524736 
+Mean:: MAE: 0.310030 RMSE: 0.559928 
+STD:: MAE: 0.014410 RMSE: 0.033545 
+k neighbors=  12
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.319952 RMSE: 0.581684 
+Eval:: MAE: 0.283453 RMSE: 0.498491 
+Eval:: MAE: 0.310161 RMSE: 0.555452 
+Eval:: MAE: 0.319955 RMSE: 0.590397 
+Eval:: MAE: 0.311032 RMSE: 0.564262 
+Eval:: MAE: 0.300861 RMSE: 0.536428 
+Eval:: MAE: 0.296358 RMSE: 0.535399 
+Eval:: MAE: 0.317029 RMSE: 0.595646 
+Eval:: MAE: 0.320777 RMSE: 0.565932 
+Eval:: MAE: 0.300061 RMSE: 0.53346 
+Mean:: MAE: 0.307964 RMSE: 0.555715 
+STD:: MAE: 0.011817 RMSE: 0.028642 
+k neighbors=  13
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.301189 RMSE: 0.533033 
+Eval:: MAE: 0.284545 RMSE: 0.496748 
+Eval:: MAE: 0.314959 RMSE: 0.57277 
+Eval:: MAE: 0.299155 RMSE: 0.550675 
+Eval:: MAE: 0.317909 RMSE: 0.572631 
+Eval:: MAE: 0.322135 RMSE: 0.589144 
+Eval:: MAE: 0.301099 RMSE: 0.535758 
+Eval:: MAE: 0.317189 RMSE: 0.571104 
+Eval:: MAE: 0.304067 RMSE: 0.552759 
+Eval:: MAE: 0.3102 RMSE: 0.558932 
+Mean:: MAE: 0.307245 RMSE: 0.553355 
+STD:: MAE: 0.010807 RMSE: 0.025120 
+k neighbors=  14
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.304712 RMSE: 0.549025 
+Eval:: MAE: 0.298626 RMSE: 0.529329 
+Eval:: MAE: 0.320487 RMSE: 0.570723 
+Eval:: MAE: 0.309765 RMSE: 0.55517 
+Eval:: MAE: 0.311863 RMSE: 0.563188 
+Eval:: MAE: 0.282832 RMSE: 0.499468 
+Eval:: MAE: 0.313831 RMSE: 0.578182 
+Eval:: MAE: 0.323017 RMSE: 0.592543 
+Eval:: MAE: 0.287136 RMSE: 0.520947 
+Eval:: MAE: 0.30308 RMSE: 0.537869 
+Mean:: MAE: 0.305535 RMSE: 0.549644 
+STD:: MAE: 0.012507 RMSE: 0.026844 
+k neighbors=  15
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.32136 RMSE: 0.602772 
+Eval:: MAE: 0.323487 RMSE: 0.571084 
+Eval:: MAE: 0.29781 RMSE: 0.532746 
+Eval:: MAE: 0.320412 RMSE: 0.579222 
+Eval:: MAE: 0.288336 RMSE: 0.522582 
+Eval:: MAE: 0.287304 RMSE: 0.496159 
+Eval:: MAE: 0.294463 RMSE: 0.553681 
+Eval:: MAE: 0.339092 RMSE: 0.631503 
+Eval:: MAE: 0.291601 RMSE: 0.525396 
+Eval:: MAE: 0.295613 RMSE: 0.533465 
+Mean:: MAE: 0.305948 RMSE: 0.554861 
+STD:: MAE: 0.017382 RMSE: 0.039154 
+k neighbors=  16
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.312857 RMSE: 0.574864 
+Eval:: MAE: 0.314031 RMSE: 0.576249 
+Eval:: MAE: 0.309748 RMSE: 0.560477 
+Eval:: MAE: 0.304843 RMSE: 0.549751 
+Eval:: MAE: 0.315855 RMSE: 0.570484 
+Eval:: MAE: 0.309062 RMSE: 0.558465 
+Eval:: MAE: 0.311567 RMSE: 0.566772 
+Eval:: MAE: 0.288289 RMSE: 0.510942 
+Eval:: MAE: 0.297324 RMSE: 0.548912 
+Eval:: MAE: 0.30608 RMSE: 0.558617 
+Mean:: MAE: 0.306966 RMSE: 0.557553 
+STD:: MAE: 0.008025 RMSE: 0.017944 
+k neighbors=  17
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.29837 RMSE: 0.530453 
+Eval:: MAE: 0.308879 RMSE: 0.562967 
+Eval:: MAE: 0.321401 RMSE: 0.597447 
+Eval:: MAE: 0.289652 RMSE: 0.523483 
+Eval:: MAE: 0.322348 RMSE: 0.582575 
+Eval:: MAE: 0.290096 RMSE: 0.507825 
+Eval:: MAE: 0.295765 RMSE: 0.536821 
+Eval:: MAE: 0.300099 RMSE: 0.556886 
+Eval:: MAE: 0.322533 RMSE: 0.585481 
+Eval:: MAE: 0.318546 RMSE: 0.583853 
+Mean:: MAE: 0.306769 RMSE: 0.556779 
+STD:: MAE: 0.012867 RMSE: 0.029173 
+k neighbors=  18
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.298791 RMSE: 0.53857 
+Eval:: MAE: 0.288634 RMSE: 0.525334 
+Eval:: MAE: 0.29683 RMSE: 0.535695 
+Eval:: MAE: 0.307166 RMSE: 0.5497 
+Eval:: MAE: 0.347054 RMSE: 0.624504 
+Eval:: MAE: 0.311166 RMSE: 0.574327 
+Eval:: MAE: 0.304987 RMSE: 0.561992 
+Eval:: MAE: 0.299325 RMSE: 0.538475 
+Eval:: MAE: 0.309247 RMSE: 0.565047 
+Eval:: MAE: 0.316077 RMSE: 0.574792 
+Mean:: MAE: 0.307928 RMSE: 0.558844 
+STD:: MAE: 0.015072 RMSE: 0.027243 
+k neighbors=  19
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.305801 RMSE: 0.562065 
+Eval:: MAE: 0.330162 RMSE: 0.604696 
+Eval:: MAE: 0.293603 RMSE: 0.528675 
+Eval:: MAE: 0.301017 RMSE: 0.55254 
+Eval:: MAE: 0.30805 RMSE: 0.534766 
+Eval:: MAE: 0.277559 RMSE: 0.497317 
+Eval:: MAE: 0.303692 RMSE: 0.563059 
+Eval:: MAE: 0.326105 RMSE: 0.60974 
+Eval:: MAE: 0.295438 RMSE: 0.537134 
+Eval:: MAE: 0.3129 RMSE: 0.562908 
+Mean:: MAE: 0.305433 RMSE: 0.555290 
+STD:: MAE: 0.014632 RMSE: 0.032245 
+k neighbors=  20
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.300842 RMSE: 0.522375 
+Eval:: MAE: 0.303898 RMSE: 0.561555 
+Eval:: MAE: 0.306565 RMSE: 0.566596 
+Eval:: MAE: 0.30454 RMSE: 0.560945 
+Eval:: MAE: 0.328914 RMSE: 0.594947 
+Eval:: MAE: 0.290742 RMSE: 0.522431 
+Eval:: MAE: 0.303656 RMSE: 0.560075 
+Eval:: MAE: 0.302241 RMSE: 0.553104 
+Eval:: MAE: 0.311448 RMSE: 0.555938 
+Eval:: MAE: 0.288682 RMSE: 0.528087 
+Mean:: MAE: 0.304153 RMSE: 0.552605 
+STD:: MAE: 0.010519 RMSE: 0.021519 
+k neighbors=  21
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.305887 RMSE: 0.564578 
+Eval:: MAE: 0.324801 RMSE: 0.584188 
+Eval:: MAE: 0.312881 RMSE: 0.574648 
+Eval:: MAE: 0.327366 RMSE: 0.602195 
+Eval:: MAE: 0.302407 RMSE: 0.558661 
+Eval:: MAE: 0.300831 RMSE: 0.555428 
+Eval:: MAE: 0.320875 RMSE: 0.59942 
+Eval:: MAE: 0.291371 RMSE: 0.524966 
+Eval:: MAE: 0.281725 RMSE: 0.506278 
+Eval:: MAE: 0.298648 RMSE: 0.525897 
+Mean:: MAE: 0.306679 RMSE: 0.559626 
+STD:: MAE: 0.014039 RMSE: 0.030745 
+k neighbors=  22
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.288474 RMSE: 0.512567 
+Eval:: MAE: 0.300894 RMSE: 0.534423 
+Eval:: MAE: 0.321955 RMSE: 0.573887 
+Eval:: MAE: 0.292756 RMSE: 0.530982 
+Eval:: MAE: 0.287654 RMSE: 0.518211 
+Eval:: MAE: 0.294214 RMSE: 0.545248 
+Eval:: MAE: 0.311446 RMSE: 0.559452 
+Eval:: MAE: 0.290334 RMSE: 0.512251 
+Eval:: MAE: 0.305392 RMSE: 0.554032 
+Eval:: MAE: 0.325684 RMSE: 0.612189 
+Mean:: MAE: 0.301880 RMSE: 0.545324 
+STD:: MAE: 0.013160 RMSE: 0.029646 
+k neighbors=  23
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.290334 RMSE: 0.520133 
+Eval:: MAE: 0.306846 RMSE: 0.561286 
+Eval:: MAE: 0.302062 RMSE: 0.541269 
+Eval:: MAE: 0.311485 RMSE: 0.577095 
+Eval:: MAE: 0.318152 RMSE: 0.576829 
+Eval:: MAE: 0.28279 RMSE: 0.504805 
+Eval:: MAE: 0.328358 RMSE: 0.60545 
+Eval:: MAE: 0.315582 RMSE: 0.577278 
+Eval:: MAE: 0.303893 RMSE: 0.558578 
+Eval:: MAE: 0.29317 RMSE: 0.540961 
+Mean:: MAE: 0.305267 RMSE: 0.556368 
+STD:: MAE: 0.013166 RMSE: 0.028567 
+k neighbors=  24
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.288112 RMSE: 0.52368 
+Eval:: MAE: 0.303516 RMSE: 0.542025 
+Eval:: MAE: 0.312127 RMSE: 0.579091 
+Eval:: MAE: 0.325064 RMSE: 0.599554 
+Eval:: MAE: 0.291859 RMSE: 0.537394 
+Eval:: MAE: 0.306772 RMSE: 0.544906 
+Eval:: MAE: 0.293468 RMSE: 0.524621 
+Eval:: MAE: 0.320711 RMSE: 0.590488 
+Eval:: MAE: 0.286624 RMSE: 0.502583 
+Eval:: MAE: 0.325758 RMSE: 0.607018 
+Mean:: MAE: 0.305401 RMSE: 0.555136 
+STD:: MAE: 0.014364 RMSE: 0.034296 
+k neighbors=  25
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.309531 RMSE: 0.57072 
+Eval:: MAE: 0.293975 RMSE: 0.540494 
+Eval:: MAE: 0.305433 RMSE: 0.560924 
+Eval:: MAE: 0.35179 RMSE: 0.643952 
+Eval:: MAE: 0.292681 RMSE: 0.549502 
+Eval:: MAE: 0.276507 RMSE: 0.489686 
+Eval:: MAE: 0.312957 RMSE: 0.564144 
+Eval:: MAE: 0.323633 RMSE: 0.59052 
+Eval:: MAE: 0.291662 RMSE: 0.505357 
+Eval:: MAE: 0.288931 RMSE: 0.52146 
+Mean:: MAE: 0.304710 RMSE: 0.553676 
+STD:: MAE: 0.020349 RMSE: 0.041974 
+k neighbors=  26
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.305357 RMSE: 0.553788 
+Eval:: MAE: 0.295092 RMSE: 0.49807 
+Eval:: MAE: 0.278856 RMSE: 0.510834 
+Eval:: MAE: 0.316253 RMSE: 0.585462 
+Eval:: MAE: 0.333328 RMSE: 0.616498 
+Eval:: MAE: 0.313771 RMSE: 0.557857 
+Eval:: MAE: 0.273207 RMSE: 0.457704 
+Eval:: MAE: 0.313265 RMSE: 0.571836 
+Eval:: MAE: 0.3369 RMSE: 0.642319 
+Eval:: MAE: 0.279256 RMSE: 0.511299 
+Mean:: MAE: 0.304529 RMSE: 0.550567 
+STD:: MAE: 0.021319 RMSE: 0.053851 
+k neighbors=  27
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.297229 RMSE: 0.543387 
+Eval:: MAE: 0.308461 RMSE: 0.565655 
+Eval:: MAE: 0.316694 RMSE: 0.578365 
+Eval:: MAE: 0.313603 RMSE: 0.575209 
+Eval:: MAE: 0.301052 RMSE: 0.541728 
+Eval:: MAE: 0.290185 RMSE: 0.528517 
+Eval:: MAE: 0.31012 RMSE: 0.576853 
+Eval:: MAE: 0.296246 RMSE: 0.533956 
+Eval:: MAE: 0.294454 RMSE: 0.523826 
+Eval:: MAE: 0.299295 RMSE: 0.527823 
+Mean:: MAE: 0.302734 RMSE: 0.549532 
+STD:: MAE: 0.008447 RMSE: 0.021005 
+k neighbors=  28
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.304158 RMSE: 0.547783 
+Eval:: MAE: 0.298462 RMSE: 0.538663 
+Eval:: MAE: 0.284303 RMSE: 0.511358 
+Eval:: MAE: 0.304202 RMSE: 0.55978 
+Eval:: MAE: 0.293058 RMSE: 0.521488 
+Eval:: MAE: 0.324138 RMSE: 0.605921 
+Eval:: MAE: 0.302866 RMSE: 0.554142 
+Eval:: MAE: 0.286986 RMSE: 0.504466 
+Eval:: MAE: 0.295666 RMSE: 0.52464 
+Eval:: MAE: 0.312687 RMSE: 0.583467 
+Mean:: MAE: 0.300653 RMSE: 0.545171 
+STD:: MAE: 0.011259 RMSE: 0.030468 
+k neighbors=  29
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.288929 RMSE: 0.50545 
+Eval:: MAE: 0.304266 RMSE: 0.55455 
+Eval:: MAE: 0.313614 RMSE: 0.577144 
+Eval:: MAE: 0.2979 RMSE: 0.550263 
+Eval:: MAE: 0.305176 RMSE: 0.555447 
+Eval:: MAE: 0.293368 RMSE: 0.536828 
+Eval:: MAE: 0.334767 RMSE: 0.609144 
+Eval:: MAE: 0.331195 RMSE: 0.620766 
+Eval:: MAE: 0.28953 RMSE: 0.51506 
+Eval:: MAE: 0.289715 RMSE: 0.526396 
+Mean:: MAE: 0.304846 RMSE: 0.555105 
+STD:: MAE: 0.016012 RMSE: 0.036012 
+k neighbors=  30
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.308876 RMSE: 0.569666 
+Eval:: MAE: 0.302655 RMSE: 0.551834 
+Eval:: MAE: 0.287353 RMSE: 0.523382 
+Eval:: MAE: 0.319529 RMSE: 0.592898 
+Eval:: MAE: 0.309419 RMSE: 0.551099 
+Eval:: MAE: 0.308584 RMSE: 0.567148 
+Eval:: MAE: 0.3072 RMSE: 0.576688 
+Eval:: MAE: 0.313619 RMSE: 0.569476 
+Eval:: MAE: 0.297064 RMSE: 0.537816 
+Eval:: MAE: 0.30288 RMSE: 0.551181 
+Mean:: MAE: 0.305718 RMSE: 0.559119 
+STD:: MAE: 0.008467 RMSE: 0.019089 
+k neighbors=  31
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.320249 RMSE: 0.590608 
+Eval:: MAE: 0.306497 RMSE: 0.563109 
+Eval:: MAE: 0.303389 RMSE: 0.526621 
+Eval:: MAE: 0.288024 RMSE: 0.517724 
+Eval:: MAE: 0.289305 RMSE: 0.536826 
+Eval:: MAE: 0.303639 RMSE: 0.550674 
+Eval:: MAE: 0.293961 RMSE: 0.543217 
+Eval:: MAE: 0.305068 RMSE: 0.562625 
+Eval:: MAE: 0.301585 RMSE: 0.561822 
+Eval:: MAE: 0.335129 RMSE: 0.609842 
+Mean:: MAE: 0.304685 RMSE: 0.556307 
+STD:: MAE: 0.013469 RMSE: 0.026668 
+k neighbors=  32
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.3027 RMSE: 0.538114 
+Eval:: MAE: 0.305592 RMSE: 0.56397 
+Eval:: MAE: 0.302457 RMSE: 0.562822 
+Eval:: MAE: 0.28332 RMSE: 0.526341 
+Eval:: MAE: 0.310885 RMSE: 0.549053 
+Eval:: MAE: 0.293538 RMSE: 0.54805 
+Eval:: MAE: 0.314896 RMSE: 0.591174 
+Eval:: MAE: 0.302811 RMSE: 0.563858 
+Eval:: MAE: 0.303483 RMSE: 0.561463 
+Eval:: MAE: 0.289664 RMSE: 0.512579 
+Mean:: MAE: 0.300935 RMSE: 0.551742 
+STD:: MAE: 0.009072 RMSE: 0.021105 
+k neighbors=  33
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.286863 RMSE: 0.50222 
+Eval:: MAE: 0.303957 RMSE: 0.566675 
+Eval:: MAE: 0.3 RMSE: 0.55464 
+Eval:: MAE: 0.284752 RMSE: 0.532606 
+Eval:: MAE: 0.294216 RMSE: 0.538436 
+Eval:: MAE: 0.32335 RMSE: 0.591979 
+Eval:: MAE: 0.282023 RMSE: 0.49051 
+Eval:: MAE: 0.295565 RMSE: 0.543442 
+Eval:: MAE: 0.316152 RMSE: 0.592895 
+Eval:: MAE: 0.316026 RMSE: 0.585811 
+Mean:: MAE: 0.300290 RMSE: 0.549921 
+STD:: MAE: 0.013635 RMSE: 0.033890 
+k neighbors=  34
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.294421 RMSE: 0.543172 
+Eval:: MAE: 0.306613 RMSE: 0.577194 
+Eval:: MAE: 0.312463 RMSE: 0.579074 
+Eval:: MAE: 0.31161 RMSE: 0.567533 
+Eval:: MAE: 0.305629 RMSE: 0.565655 
+Eval:: MAE: 0.277761 RMSE: 0.506115 
+Eval:: MAE: 0.305957 RMSE: 0.561264 
+Eval:: MAE: 0.279707 RMSE: 0.512696 
+Eval:: MAE: 0.290449 RMSE: 0.521905 
+Eval:: MAE: 0.328041 RMSE: 0.600926 
+Mean:: MAE: 0.301265 RMSE: 0.553553 
+STD:: MAE: 0.014833 RMSE: 0.029807 
+k neighbors=  35
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.302012 RMSE: 0.552199 
+Eval:: MAE: 0.306979 RMSE: 0.562297 
+Eval:: MAE: 0.323719 RMSE: 0.610446 
+Eval:: MAE: 0.288928 RMSE: 0.542566 
+Eval:: MAE: 0.277164 RMSE: 0.508729 
+Eval:: MAE: 0.311575 RMSE: 0.577217 
+Eval:: MAE: 0.283149 RMSE: 0.509319 
+Eval:: MAE: 0.301863 RMSE: 0.555732 
+Eval:: MAE: 0.291357 RMSE: 0.526839 
+Eval:: MAE: 0.324721 RMSE: 0.589288 
+Mean:: MAE: 0.301147 RMSE: 0.553463 
+STD:: MAE: 0.015341 RMSE: 0.031555 
+k neighbors=  36
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.308296 RMSE: 0.591948 
+Eval:: MAE: 0.295006 RMSE: 0.539211 
+Eval:: MAE: 0.308354 RMSE: 0.564551 
+Eval:: MAE: 0.311322 RMSE: 0.578612 
+Eval:: MAE: 0.311775 RMSE: 0.562137 
+Eval:: MAE: 0.290964 RMSE: 0.539683 
+Eval:: MAE: 0.299821 RMSE: 0.547086 
+Eval:: MAE: 0.28559 RMSE: 0.523317 
+Eval:: MAE: 0.296804 RMSE: 0.541286 
+Eval:: MAE: 0.288813 RMSE: 0.528666 
+Mean:: MAE: 0.299674 RMSE: 0.551650 
+STD:: MAE: 0.009241 RMSE: 0.020939 
+k neighbors=  37
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.287211 RMSE: 0.534942 
+Eval:: MAE: 0.301154 RMSE: 0.572349 
+Eval:: MAE: 0.304368 RMSE: 0.562817 
+Eval:: MAE: 0.312781 RMSE: 0.584725 
+Eval:: MAE: 0.298098 RMSE: 0.538144 
+Eval:: MAE: 0.300542 RMSE: 0.557089 
+Eval:: MAE: 0.297273 RMSE: 0.550861 
+Eval:: MAE: 0.308399 RMSE: 0.556432 
+Eval:: MAE: 0.303284 RMSE: 0.545642 
+Eval:: MAE: 0.291328 RMSE: 0.532111 
+Mean:: MAE: 0.300444 RMSE: 0.553511 
+STD:: MAE: 0.007164 RMSE: 0.015953 
+k neighbors=  38
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.300174 RMSE: 0.562865 
+Eval:: MAE: 0.302975 RMSE: 0.562768 
+Eval:: MAE: 0.305351 RMSE: 0.563613 
+Eval:: MAE: 0.295133 RMSE: 0.563848 
+Eval:: MAE: 0.304816 RMSE: 0.556156 
+Eval:: MAE: 0.288951 RMSE: 0.526932 
+Eval:: MAE: 0.302374 RMSE: 0.552727 
+Eval:: MAE: 0.323077 RMSE: 0.594562 
+Eval:: MAE: 0.300716 RMSE: 0.531145 
+Eval:: MAE: 0.307981 RMSE: 0.576017 
+Mean:: MAE: 0.303155 RMSE: 0.559063 
+STD:: MAE: 0.008422 RMSE: 0.018654 
+k neighbors=  39
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.302914 RMSE: 0.559972 
+Eval:: MAE: 0.312026 RMSE: 0.572471 
+Eval:: MAE: 0.294299 RMSE: 0.538004 
+Eval:: MAE: 0.28418 RMSE: 0.513405 
+Eval:: MAE: 0.301146 RMSE: 0.56532 
+Eval:: MAE: 0.3101 RMSE: 0.574903 
+Eval:: MAE: 0.285456 RMSE: 0.537548 
+Eval:: MAE: 0.282589 RMSE: 0.51062 
+Eval:: MAE: 0.304657 RMSE: 0.558761 
+Eval:: MAE: 0.310372 RMSE: 0.576969 
+Mean:: MAE: 0.298774 RMSE: 0.550797 
+STD:: MAE: 0.010808 RMSE: 0.023336 
+k neighbors=  40
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.292882 RMSE: 0.530422 
+Eval:: MAE: 0.305023 RMSE: 0.569807 
+Eval:: MAE: 0.290706 RMSE: 0.542855 
+Eval:: MAE: 0.310603 RMSE: 0.575235 
+Eval:: MAE: 0.316012 RMSE: 0.597053 
+Eval:: MAE: 0.290559 RMSE: 0.532495 
+Eval:: MAE: 0.30678 RMSE: 0.562188 
+Eval:: MAE: 0.306628 RMSE: 0.579583 
+Eval:: MAE: 0.265923 RMSE: 0.483302 
+Eval:: MAE: 0.321388 RMSE: 0.578646 
+Mean:: MAE: 0.300650 RMSE: 0.555159 
+STD:: MAE: 0.015247 RMSE: 0.031640 
+k neighbors=  41
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.265955 RMSE: 0.459341 
+Eval:: MAE: 0.305017 RMSE: 0.562394 
+Eval:: MAE: 0.325803 RMSE: 0.623481 
+Eval:: MAE: 0.292656 RMSE: 0.545728 
+Eval:: MAE: 0.282284 RMSE: 0.533442 
+Eval:: MAE: 0.295467 RMSE: 0.546338 
+Eval:: MAE: 0.328182 RMSE: 0.60677 
+Eval:: MAE: 0.297936 RMSE: 0.563517 
+Eval:: MAE: 0.308675 RMSE: 0.558973 
+Eval:: MAE: 0.305203 RMSE: 0.565784 
+Mean:: MAE: 0.300718 RMSE: 0.556577 
+STD:: MAE: 0.017703 RMSE: 0.041690 
+k neighbors=  42
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.305857 RMSE: 0.57346 
+Eval:: MAE: 0.300739 RMSE: 0.551076 
+Eval:: MAE: 0.31167 RMSE: 0.571265 
+Eval:: MAE: 0.308677 RMSE: 0.571404 
+Eval:: MAE: 0.303279 RMSE: 0.546058 
+Eval:: MAE: 0.28076 RMSE: 0.532497 
+Eval:: MAE: 0.297033 RMSE: 0.544149 
+Eval:: MAE: 0.280985 RMSE: 0.505432 
+Eval:: MAE: 0.292633 RMSE: 0.545728 
+Eval:: MAE: 0.281295 RMSE: 0.51262 
+Mean:: MAE: 0.296293 RMSE: 0.545369 
+STD:: MAE: 0.011244 RMSE: 0.022373 
+k neighbors=  43
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.271548 RMSE: 0.498087 
+Eval:: MAE: 0.30602 RMSE: 0.568133 
+Eval:: MAE: 0.295617 RMSE: 0.544759 
+Eval:: MAE: 0.298894 RMSE: 0.550023 
+Eval:: MAE: 0.282228 RMSE: 0.512783 
+Eval:: MAE: 0.308359 RMSE: 0.581189 
+Eval:: MAE: 0.326272 RMSE: 0.596236 
+Eval:: MAE: 0.305625 RMSE: 0.570262 
+Eval:: MAE: 0.283441 RMSE: 0.518157 
+Eval:: MAE: 0.288477 RMSE: 0.527608 
+Mean:: MAE: 0.296648 RMSE: 0.546724 
+STD:: MAE: 0.015061 RMSE: 0.030603 
+k neighbors=  44
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.302067 RMSE: 0.547405 
+Eval:: MAE: 0.302682 RMSE: 0.558398 
+Eval:: MAE: 0.290488 RMSE: 0.523642 
+Eval:: MAE: 0.325161 RMSE: 0.615499 
+Eval:: MAE: 0.286401 RMSE: 0.524467 
+Eval:: MAE: 0.296204 RMSE: 0.53828 
+Eval:: MAE: 0.308763 RMSE: 0.571526 
+Eval:: MAE: 0.29942 RMSE: 0.553742 
+Eval:: MAE: 0.295264 RMSE: 0.558045 
+Eval:: MAE: 0.30556 RMSE: 0.576217 
+Mean:: MAE: 0.301201 RMSE: 0.556722 
+STD:: MAE: 0.010249 RMSE: 0.025747 
+k neighbors=  45
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.302722 RMSE: 0.544603 
+Eval:: MAE: 0.307403 RMSE: 0.57197 
+Eval:: MAE: 0.277668 RMSE: 0.508029 
+Eval:: MAE: 0.298737 RMSE: 0.555474 
+Eval:: MAE: 0.310134 RMSE: 0.572043 
+Eval:: MAE: 0.299223 RMSE: 0.557792 
+Eval:: MAE: 0.29578 RMSE: 0.562074 
+Eval:: MAE: 0.305953 RMSE: 0.569985 
+Eval:: MAE: 0.304097 RMSE: 0.572277 
+Eval:: MAE: 0.303742 RMSE: 0.550993 
+Mean:: MAE: 0.300546 RMSE: 0.556524 
+STD:: MAE: 0.008642 RMSE: 0.018619 
+k neighbors=  46
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.286187 RMSE: 0.537407 
+Eval:: MAE: 0.302653 RMSE: 0.557053 
+Eval:: MAE: 0.277931 RMSE: 0.510995 
+Eval:: MAE: 0.287579 RMSE: 0.532827 
+Eval:: MAE: 0.290774 RMSE: 0.532879 
+Eval:: MAE: 0.280737 RMSE: 0.505464 
+Eval:: MAE: 0.312174 RMSE: 0.572623 
+Eval:: MAE: 0.311937 RMSE: 0.582555 
+Eval:: MAE: 0.320197 RMSE: 0.606759 
+Eval:: MAE: 0.286 RMSE: 0.517808 
+Mean:: MAE: 0.295617 RMSE: 0.545637 
+STD:: MAE: 0.014135 RMSE: 0.031528 
+k neighbors=  47
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.321218 RMSE: 0.603917 
+Eval:: MAE: 0.280257 RMSE: 0.503688 
+Eval:: MAE: 0.284074 RMSE: 0.524029 
+Eval:: MAE: 0.289618 RMSE: 0.535951 
+Eval:: MAE: 0.281929 RMSE: 0.50091 
+Eval:: MAE: 0.32523 RMSE: 0.603422 
+Eval:: MAE: 0.291074 RMSE: 0.533473 
+Eval:: MAE: 0.29689 RMSE: 0.549441 
+Eval:: MAE: 0.304965 RMSE: 0.563491 
+Eval:: MAE: 0.299866 RMSE: 0.574257 
+Mean:: MAE: 0.297512 RMSE: 0.549258 
+STD:: MAE: 0.014888 RMSE: 0.034965 
+k neighbors=  48
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.277462 RMSE: 0.514584 
+Eval:: MAE: 0.309926 RMSE: 0.574141 
+Eval:: MAE: 0.311714 RMSE: 0.581456 
+Eval:: MAE: 0.287211 RMSE: 0.522978 
+Eval:: MAE: 0.313618 RMSE: 0.58119 
+Eval:: MAE: 0.321533 RMSE: 0.596465 
+Eval:: MAE: 0.283316 RMSE: 0.512347 
+Eval:: MAE: 0.294918 RMSE: 0.550855 
+Eval:: MAE: 0.306529 RMSE: 0.579556 
+Eval:: MAE: 0.294345 RMSE: 0.541379 
+Mean:: MAE: 0.300057 RMSE: 0.555495 
+STD:: MAE: 0.013911 RMSE: 0.029585 
+k neighbors=  49
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.298982 RMSE: 0.561486 
+Eval:: MAE: 0.300398 RMSE: 0.542356 
+Eval:: MAE: 0.29103 RMSE: 0.54242 
+Eval:: MAE: 0.298543 RMSE: 0.549055 
+Eval:: MAE: 0.335484 RMSE: 0.625342 
+Eval:: MAE: 0.297492 RMSE: 0.555967 
+Eval:: MAE: 0.313688 RMSE: 0.585876 
+Eval:: MAE: 0.311186 RMSE: 0.56491 
+Eval:: MAE: 0.275485 RMSE: 0.501869 
+Eval:: MAE: 0.280847 RMSE: 0.516298 
+Mean:: MAE: 0.300314 RMSE: 0.554558 
+STD:: MAE: 0.016213 RMSE: 0.032733 
+k neighbors=  50
+[Case Recommender: Cross Validation]
+
+Database:: /home/diany/baseline/baseline_ItemAtrrKNN_df.csv 
+Recommender Algorithm:: Item Attribute KNN Algorithm | K Folds: 10
+
+Eval:: MAE: 0.310523 RMSE: 0.584353 
+Eval:: MAE: 0.305296 RMSE: 0.543002 
+Eval:: MAE: 0.292804 RMSE: 0.528016 
+Eval:: MAE: 0.268973 RMSE: 0.499104 
+Eval:: MAE: 0.312551 RMSE: 0.579433 
+Eval:: MAE: 0.315004 RMSE: 0.586077 
+Eval:: MAE: 0.331119 RMSE: 0.620913 
+Eval:: MAE: 0.299468 RMSE: 0.557438 
+Eval:: MAE: 0.262914 RMSE: 0.467798 
+Eval:: MAE: 0.296275 RMSE: 0.563305 
+Mean:: MAE: 0.299493 RMSE: 0.552944 
+STD:: MAE: 0.019726 RMSE: 0.042898 
